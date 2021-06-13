@@ -8,9 +8,13 @@ A XXI. században vannak olyan indokok (főleg későbbi statisztikai kimutatás
 Az üzemnaplóban kötelezően rögzíthető, de akár eltérő helyről származó, vagy eltérő felhasználók által rögzítendőek az alábbiak (entitások):
 
 1.) napi vendéglétszám (bővebb statisztikához, akár később elektronikusan érkező, akár 1/4 órás felbontásban) és napi wellness vendéglétszám;
+
 2.) napi időjárási adatok (víz és levegő hőfok [number], valamint az időjárás általános szöveges leírása);
+
 3.) napi terápia/wellness kezelés adatok (az alkalmazás továbbfejlesztésével különféle statisztikai kimutatásokat lehet a wellness kezelésekről készíteni, de ez a statisztikai rész jelen vizsgaremek keretében csak az adatok nyilvántartására és egyszerű lekérdezésére korlátozódik);
-4.) napi események (a fürdő üzemelése alatt előforduló napi rendkívüli események, időpont szerint rögzített szöveges leírása), amennyiben az adott napon nem kerül esemény rögzítésre, úgy az üzemnaplóba automatikusan bekerül a "Rendkívüli esemény nem történt." bejegyzés, időpont megjelölése nélkül.
+
+4.) napi események (a fürdő üzemelése alatt előforduló napi rendkívüli események, időpont szerint rögzített szöveges leírása), amennyiben az adott napon nem kerül esemény rögzítésre, úgy az üzemnaplóba automatikusan bekerül a "Rendkívüli esemény nem történt." bejegyzés, időpont megjelölése nélkül;
+
 5.) Felhasználók, felhasználói csoportok kezelése (adminisztrátor: jogosult a különféle jogosultsággal rendelkező felhasználókat kezelni; bejegyzésre jogosult felhasználók: ki melyik mely részeihez férhet hozzá az adatbázishoz, van teljes hozzáférésű felhasználó [fürdővezető, műszakvezetők], s részleges hozzáféréssel rendelkezők [diszpécserek, információsok] -> az alkalmazás továbbfejlesztése során a számszerűsíthető adatok más rendszerekből, API (SOAP, REST alapokon) hívásokon keresztül automatikusan bekerülhetnek, jelenleg azonban kézi rögzítésre van lehetőség);
 
 Kiegészítésként 6. entitásként medencék vízkezelési (napi több mérés és/vagy leolvasás) kell rögzíteni fürdőkben.
