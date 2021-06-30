@@ -8,7 +8,7 @@ Az alkalmazás egy fürdő eddig papíron vezetett napi üzemviteli naplójának
 - Ha további fejlesztések szükségesek, akkor telepíteni kell az Angular keretrendszert az `npm i -g @angular/cli` paranccsal.
 
 # 3. Az alkalmazás konfigurálása
-A base.service.ts állományban be kell állítani az API végpont elérési útvonalát.
+A _base.service.ts_ állományban be kell állítani az API végpont elérési útvonalát.
 
 # 4. Az alkalmazás indítása
 A megadott Docker container indítása és inicializálása.
