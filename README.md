@@ -1,6 +1,7 @@
-# spa-daily-report
-Fürdő üzemnapló - vizsgaremek
+# User story - Spa daily report
+## Fürdő üzemnapló - vizsgaremek
 
+### A program célja
 
 Jogszabályi kötelezettség a fürdőkben üzemnaplót vezetni (azonban a formájára, hogy papír alapon vagy elektronikusan vezetett-e) nincs megkötés.
 A XXI. században vannak olyan indokok (főleg későbbi statisztikai kimutatások készítése, vezetők bármikor ránézhetnek), melyek az elektronikusan vezetett üzemnapló mellett szólnak.
@@ -20,3 +21,22 @@ Az üzemnaplóban kötelezően rögzíthető, de akár eltérő helyről szárma
 Kiegészítésként 6. entitásként medencék vízkezelési (napi több mérés és/vagy leolvasás) kell rögzíteni fürdőkben.
 
 Jelen vizsgaremek egy valóban működő fürdőnél fiktív adatokat tartalmaz a napi eseményekről. Emiatt került az entitásoknál szétválasztásra a 2. és 3. pont, a két vendéglétszám eltérő statisztikai bemutatása szükséges.
+
+
+
+
+## Felhasználói szerepkör
+
+### I. Főoldal
+
+#### 1. felhasználói történet
+A felhasználó az oldal böngészőben történő megnyitásakor az üzemviteli napló (továbbiakban: üzemnapló) főoldalára kerül, ahol megtekintheti az utolsó rögzített nap fő statisztikai adatait (vendéglétszá, kezelések összesített száma, időjárási adatok)
+
+#### Elfogadási kritérium
+> Az oldal legyen mobilbarát, áttekinthető, figyelemfelkeltő.
+
+#### 2. felhasználói történet
+Az oldalon a felhasználónak lehetősége lesz regisztrációra és belépésre. A regisztráció után az adminisztrátorok által jóváhagyott jogosultsági szint szerint oldalak megtekintésére, adatok rögzítésére, szerkesztésére.
+
+#### Elfogadási kritérium
+> A regisztráció egy mobilbarát űrlap kitöltésével lehetséges. Az adatok legyenek ellenőrizve, hogy megfelelő adatot irt-e be a felhasználó.
