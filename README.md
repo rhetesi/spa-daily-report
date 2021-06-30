@@ -90,7 +90,7 @@ Az újonnan regisztrált felhasználók regisztrációjának jóváhagyása. Fel
 Téves adatfelvitel esetén az adminisztrátorok jogosultak az adatok javítására és/vagy törlésére bármely felhasználói oldalon.
 
 ### Elfogadási kritérium
-Az adminisztrátorok teljes jogosultsággal rendelkeznek minden felhasználói oldal kezelésére.
+> Az adminisztrátorok teljes jogosultsággal rendelkeznek minden felhasználói oldal kezelésére.
 
 ## A projekt egyéb adatai
 
