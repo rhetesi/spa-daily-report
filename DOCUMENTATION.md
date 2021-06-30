@@ -17,4 +17,4 @@ A megadott Docker container indítása és inicializálása.
 swagger
 
 # 6. Linkek
-[A User Stoy (felhasználói és adminisztrátori szerepkör) itt érhető el.](https://github.com/rhetesi/spa-daily-report)
+[A User Stoy (felhasználói és adminisztrátori szerepkör) itt érhető el.](https://github.com/rhetesi/spa-daily-report/blob/main/README.md)
