@@ -47,6 +47,13 @@ Az oldalra belépve a felhasználó a jogosultsági szintje szerinti további ol
 #### Elfogadási kritérium
 > Mobilbarát navigáció - mobil nézetben hamburger menü - asztali nézetben az oldal tetején mindig látható menüsáv.
 
+#### 4. felhasználói történet
+A főoldalon az 1. felhasználói történetben megjelenő statisztikai adatok a felhasználói jogosultságtól függően grafikonokkal vagy kártyás adatmegjelenítéssel egészülnek ki.
+
+#### Elfogadási kritérium
+> Megfelelő jogosultság esetén az aktuális hónap vendégstatisztikái (belépésszámok) grafikonon kerülnek ábrázolásra.
+> a különböző statisztikák kattintható kártyákon jelennek meg.
+
 
 ### II. napi vendéglétszám
 
@@ -61,11 +68,12 @@ Feljogosított felhasználó új vendéglétszám adatot rögzíthet (az aktuál
 
 #### Elfogadási kritérium
 > Feljogosított felhasználónál a táblázat sorok végén megjelenik a szerkesztési lehetőséget biztosító gomb, valamint a táblázat alján az új adat felvitelét lehetővé tévő gomb.
-> Új adat felvitelére kattintva űrlapon bevihető a napi vendéglétszám (alapértelmezetten az aktuális napra).
+> Új adat felvitelére kattintva űrlapon bevihető a napi vendéglétszám (alapértelmezetten az aktuális napra). Az űrlap adatai beküldéskor validálásra kerülnek.
 
 
 ### III. napi terápia/wellness vendéglétszám, időjárás, napi események
-A felhasználói történetek megegyeznek a **II. napi vendéglétszám** felhasználói történeteivel.
-Eltérés, az értelemszerűen rögzítendő más adatok, valamint a jogosultak köre.
+A felhasználói történetek és elfogadási kritériumok megegyeznek a ***II. napi vendéglétszám*** felhasználói történeteivel.
+Eltérés, az értelemszerűen rögzítendő más adatok, az adatoknak megfelelő validálás, valamint a jogosultak köre.
 
 
+## Adminisztrátor szerepkör
