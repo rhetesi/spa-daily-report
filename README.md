@@ -77,3 +77,27 @@ Eltérés, az értelemszerűen rögzítendő más adatok, az adatoknak megfelel�
 
 
 ## Adminisztrátor szerepkör
+
+### I. felhasználók kezelése
+Az újonnan regisztrált felhasználók regisztrációjának jóváhagyása. Felhasználói jogosultságok beállítása, módosítása. Regisztrációk törlése.
+
+### Elfogadási kritérium
+> Felhasználók táblázatos megjelenítése, a jogosultságok jelölőnégyzetes jóváhagyási lehetősgével. A táblázat rendezése a legutolsó regisztráció a táblázat tetején, a legkorábbi regisztráció a táblázat alján szerepeljen.
+> A táblázatsorok végén szerkesztés és törlés gombok megjelenítése. A szerkesztés gomb megnyit az adott felhasználó adataival egy szerkesztő űrlapot, ahol az adatok módosíthatók és elmenthetők. A mentés során az adatok validálása is megtörténik. A törlés gomb törli a kiválasztott sort (és így a z ott szereplő felhasználót).
+
+
+### II. adatok szerkesztése, törlése
+Téves adatfelvitel esetén az adminisztrátorok jogosultak az adatok javítására és/vagy törlésére bármely felhasználói oldalon.
+
+### Elfogadási kritérium
+Az adminisztrátorok teljes jogosultsággal rendelkeznek minden felhasználói oldal kezelésére.
+
+## A projekt egyéb adatai
+
+### Prioritás
+*magas*
+
+### Megvalósítás időtartama
+*10 hét*
+
+### További fejlesztési lehetőségek
