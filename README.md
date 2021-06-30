@@ -30,13 +30,42 @@ Jelen vizsgaremek egy valóban működő fürdőnél fiktív adatokat tartalmaz 
 ### I. Főoldal
 
 #### 1. felhasználói történet
-A felhasználó az oldal böngészőben történő megnyitásakor az üzemviteli napló (továbbiakban: üzemnapló) főoldalára kerül, ahol megtekintheti az utolsó rögzített nap fő statisztikai adatait (vendéglétszá, kezelések összesített száma, időjárási adatok)
+A felhasználó az oldal böngészőben történő megnyitásakor az üzemviteli napló (továbbiakban: üzemnapló) főoldalára kerül, ahol megtekintheti az utolsó rögzített nap fő statisztikai adatait (vendéglétszám, kezelések összesített száma, időjárási adatok)
 
 #### Elfogadási kritérium
 > Az oldal legyen mobilbarát, áttekinthető, figyelemfelkeltő.
 
 #### 2. felhasználói történet
-Az oldalon a felhasználónak lehetősége lesz regisztrációra és belépésre. A regisztráció után az adminisztrátorok által jóváhagyott jogosultsági szint szerint oldalak megtekintésére, adatok rögzítésére, szerkesztésére.
+Az oldalon a felhasználónak lehetősége lesz regisztrációra és belépésre. A regisztráció után az adminisztrátorok által jóváhagyott jogosultsági szint szerinti oldalak megtekintésére, adatok rögzítésére, szerkesztésére.
 
 #### Elfogadási kritérium
 > A regisztráció egy mobilbarát űrlap kitöltésével lehetséges. Az adatok legyenek ellenőrizve, hogy megfelelő adatot irt-e be a felhasználó.
+
+#### 3. felhasználói történet
+Az oldalra belépve a felhasználó a jogosultsági szintje szerinti további oldalakat választhat ki menüből.
+
+#### Elfogadási kritérium
+> Mobilbarát navigáció - mobil nézetben hamburger menü - asztali nézetben az oldal tetején mindig látható menüsáv.
+
+
+### II. napi vendéglétszám
+
+#### 1. felhasználói történet
+Az oldalra belépve táblázatos formában az aktuális hónap vendéglétszám adatai jelennek meg (későbbi fejlesztési ciklusban az aktuális év és a megelőző 4 év párhuzamos adatai, további fejlesztésben 5 választható év párhuzamos adatai).
+
+#### Elfogadási kritérium
+> Táblázatos formában megjelenítve az aktuális hónap vendéglétszámai.
+
+#### 2. felhasználói történet
+Feljogosított felhasználó új vendéglétszám adatot rögzíthet (az aktuális napra), szerkesztheti korábbi nap vendégadatait.
+
+#### Elfogadási kritérium
+> Feljogosított felhasználónál a táblázat sorok végén megjelenik a szerkesztési lehetőséget biztosító gomb, valamint a táblázat alján az új adat felvitelét lehetővé tévő gomb.
+> Új adat felvitelére kattintva űrlapon bevihető a napi vendéglétszám (alapértelmezetten az aktuális napra).
+
+
+### III. napi terápia/wellness vendéglétszám, időjárás, napi események
+A felhasználói történetek megegyeznek a **II. napi vendéglétszám** felhasználói történeteivel.
+Eltérés, az értelemszerűen rögzítendő más adatok, valamint a jogosultak köre.
+
+
