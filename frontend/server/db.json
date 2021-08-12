@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "_id": "ada8s7fd9aasf8ass54a7s6f",
+      "firstName": "Roland",
+      "lastName": "Hetesi",
+      "email": "rhetesi@gmail.com",
+      "address": "8380, Hévíz, Dr. Schulhof V. stny. 1.",
+      "role": 0,
+      "active": true
+    }
+  ]
+}
