@@ -1,0 +1,31 @@
+<!-- <p>data-table works!</p> -->
+
+<div class="card mb-4">
+  <div class="card-header">
+    <i class="far fa-id-card me-1"></i>
+    Felhasználók listája
+  </div>
+  <div class="card-body">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th *ngFor="let col of tableColumns">
+            {{ col.title }}
+          </th>
+          <th></th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <th *ngFor="let col of tableColumns">
+            {{ col.title }}
+          </th>
+          <th></th>
+        </tr>
+      </tfoot>
+      <tbody>
+
+      </tbody>
+    </table>
+  </div>
+</div>

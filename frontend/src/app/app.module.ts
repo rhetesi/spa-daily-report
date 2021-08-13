@@ -13,6 +13,7 @@ import { WeatherComponent } from './page/weather/weather.component';
 import { WellnessComponent } from './page/wellness/wellness.component';
 import { SpadatasComponent } from './page/spadatas/spadatas.component';
 import { SpareportComponent } from './page/spareport/spareport.component';
+import { DataTableComponent } from './commmon/data-table/data-table.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SpareportComponent } from './page/spareport/spareport.component';
     WeatherComponent,
     WellnessComponent,
     SpadatasComponent,
-    SpareportComponent
+    SpareportComponent,
+    DataTableComponent
   ],
   imports: [
     BrowserModule,
