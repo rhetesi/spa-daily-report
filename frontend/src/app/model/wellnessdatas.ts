@@ -2,7 +2,7 @@ import { User } from "./user";
 
 export class Wellnessdatas {
   _id: string = '';
-  date: Date = new Date();
+  time: Date = new Date();
   massage: number = 0;
   pediAndManiCure: number = 0;
   cosmetics: number = 0;

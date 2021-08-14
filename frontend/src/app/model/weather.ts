@@ -2,7 +2,7 @@ import { User } from "./user";
 
 export class Weather {
   _id: string = '';
-  date: Date = new Date();
+  time: Date = new Date();
   waterInside: number = 0;
   waterOutside: number = 0;
   airMin: number = 0;

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConfigService, ITableColumn } from 'src/app/service/config.service';
 
 @Component({
   selector: 'app-wellness',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WellnessComponent implements OnInit {
 
-  constructor() { }
+  tableColumns: ITableColumn[] = this.config.wellnessdatasColumns;
+
+  constructor(
+    private config: ConfigService,
+  ) { }
 
   ngOnInit(): void {
   }
