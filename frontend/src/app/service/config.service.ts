@@ -4,6 +4,8 @@ export interface ITableColumn {
   title: string;
   key: string;
   hidden?: boolean;
+  outputTransform?: any;
+  htmlOutput?: any;
 }
 
 @Injectable({
@@ -20,7 +22,7 @@ export class ConfigService {
     { key: "email", title: "Email" },
     { key: "address", title: "Cím" },
     { key: "role", title: "Jogosultság" },
-    { key: "active", title: "Aktív?" }
+    { key: "active", title: "Aktív?", htmlOutput: ConfigService.activeSign }
   ];
 
   spadatasColumns: ITableColumn[] = [
@@ -41,10 +43,10 @@ export class ConfigService {
   weatherColumns: ITableColumn[] = [
     { key: "_id", title: "#" },
     { key: "time", title: "Dátum és idő" },
-    { key: "waterInside", title: "Vízhőfok bent" },
-    { key: "waterOutside", title: "Vízhőfok kint" },
-    { key: "airMin", title: "Levegő minimum hőfok" },
-    { key: "airMax", title: "Levegő maximum hőfok" },
+    { key: "waterInside", title: "Vízhőfok bent", outputTransform: (v: number) => `${v} Ft` },
+    { key: "waterOutside", title: "Vízhőfok kint", outputTransform: (v: number) => `${v} Ft` },
+    { key: "airMin", title: "Levegő minimum hőfok", outputTransform: (v: number) => `${v} Ft` },
+    { key: "airMax", title: "Levegő maximum hőfok", outputTransform: (v: number) => `${v} Ft` },
     { key: "weatherCondition", title: "Időjárás" },
     { key: "dataLogger", title: "Rögzítette" }
   ];
@@ -64,4 +66,9 @@ export class ConfigService {
   ];
 
   constructor() { }
+
+  static activeSign(v: boolean): string {
+    const icon: string = v ? 'fa-check' : 'fa-times';
+    return `<i class="fas ${icon}"></i>`;
+  }
 }
