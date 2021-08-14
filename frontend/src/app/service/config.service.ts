@@ -40,7 +40,7 @@ export class ConfigService {
 
   weatherColumns: ITableColumn[] = [
     { key: "_id", title: "#" },
-    { key: "date", title: "Dátum és idő" },
+    { key: "time", title: "Dátum és idő" },
     { key: "waterInside", title: "Vízhőfok bent" },
     { key: "waterOutside", title: "Vízhőfok kint" },
     { key: "airMin", title: "Levegő minimum hőfok" },

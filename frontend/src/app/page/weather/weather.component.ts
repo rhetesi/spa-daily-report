@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Weather } from 'src/app/model/weather';
 import { ConfigService, ITableColumn } from 'src/app/service/config.service';
+import { WeatherService } from 'src/app/service/weather.service';
 
 @Component({
   selector: 'app-weather',
@@ -9,9 +12,11 @@ import { ConfigService, ITableColumn } from 'src/app/service/config.service';
 export class WeatherComponent implements OnInit {
 
   tableColumns: ITableColumn[] = this.config.weatherColumns;
+  list$: Observable<Weather[]> = this.weatherService.getAll();
 
   constructor(
     private config: ConfigService,
+    private weatherService: WeatherService,
   ) { }
 
   ngOnInit(): void {

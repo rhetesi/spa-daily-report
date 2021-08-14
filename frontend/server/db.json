@@ -31,7 +31,7 @@
   "spadatas": [
     {
       "_id": "spadatakfcd956hs6n3",
-      "date": "2021-07-31 18:19:00",
+      "time": "2021-07-31 18:19:00",
       "sumOfGuests": 3285,
       "sumOfSauna": 47,
       "dataLogger": "kajfidgheurd3u5bn4353b"
@@ -40,7 +40,7 @@
   "spareport": [
     {
       "_id": "spareportdscds768fdsfs65",
-      "date": "2021-07-31 18:19:00",
+      "time": "2021-07-31 18:19:00",
       "report": "Rendkívüli esemény nem történt.",
       "dataLogger": "kajfidgheurd3u5bn4353b"
     }
@@ -48,7 +48,7 @@
   "weather": [
     {
       "_id": "weather8975924jkbds887zh",
-      "date": "2021-07-31 18:19:00",
+      "time": "2021-07-31 18:19:00",
       "waterInside": 35.6,
       "waterOutside": 33.2,
       "airMin": 25.7,
@@ -60,7 +60,7 @@
   "wellnessdatas": [
     {
       "_id": "wellness8976r3832bhid78zg3b",
-      "date": "2021-07-31 18:19:00",
+      "time": "2021-07-31 18:19:00",
       "massage": 14,
       "pediAndManiCure": 2,
       "cosmetics": 4,
