@@ -16,7 +16,7 @@ export class ConfigService {
   public readonly apiUrl: string = 'http://localhost:3000/';
 
   userColumns: ITableColumn[] = [
-    { key: "_id", title: "#" },
+    { key: "_id", title: "#", hidden: true },
     { key: "lastName", title: "Vezetéknév" },
     { key: "firstName", title: "Keresztnév" },
     { key: "email", title: "Email" },
@@ -26,7 +26,7 @@ export class ConfigService {
   ];
 
   spadatasColumns: ITableColumn[] = [
-    { key: "_id", title: "#" },
+    { key: "_id", title: "#", hidden: true },
     { key: "time", title: "Dátum és idő" },
     { key: "sumOfGuests", title: "Vendégek száma" },
     { key: "sumOfSauna", title: "Szaunavilág létszám" },
@@ -34,14 +34,14 @@ export class ConfigService {
   ];
 
   spareportColumns: ITableColumn[] = [
-    { key: "_id", title: "#" },
+    { key: "_id", title: "#", hidden: true },
     { key: "time", title: "Dátum és idő" },
     { key: "report", title: "Feljegyzés" },
     { key: "dataLogger", title: "Rögzítette" }
   ];
 
   weatherColumns: ITableColumn[] = [
-    { key: "_id", title: "#" },
+    { key: "_id", title: "#", hidden: true },
     { key: "time", title: "Dátum és idő" },
     { key: "waterInside", title: "Vízhőfok bent", },
     { key: "waterOutside", title: "Vízhőfok kint", },
@@ -56,7 +56,7 @@ export class ConfigService {
   ];
 
   wellnessdatasColumns: ITableColumn[] = [
-    { key: "_id", title: "#" },
+    { key: "_id", title: "#", hidden: true },
     { key: "time", title: "Dátum és idő" },
     { key: "massage", title: "Masszázs" },
     { key: "pediAndManiCure", title: "Mani- és pedikűr" },

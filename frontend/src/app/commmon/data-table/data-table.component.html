@@ -6,16 +6,26 @@
   <table class="table table-striped">
     <thead>
       <tr>
-        <th *ngFor="let col of tableColumns">
+        <!-- <th *ngFor="let col of tableColumns">
           {{ col.title }}
+        </th> -->
+        <th *ngFor="let col of tableColumns">
+          <span *ngIf="col.hidden !== true">
+            {{ col.title }}
+          </span>
         </th>
         <th></th>
       </tr>
     </thead>
     <tfoot>
       <tr>
-        <th *ngFor="let col of tableColumns">
+        <!-- <th *ngFor="let col of tableColumns">
           {{ col.title }}
+        </th> -->
+        <th *ngFor="let col of tableColumns">
+          <span *ngIf="col.hidden !== true">
+            {{ col.title }}
+          </span>
         </th>
         <th></th>
       </tr>
@@ -24,8 +34,8 @@
       <tr *ngFor="let row of list$ | async">
         <td *ngFor="let col of tableColumns">
           <!-- {{ row[col.key] }} -->
-          <span *ngIf="!col.htmlOutput">{{ row[col.key] }}</span>
-          <span *ngIf="col.htmlOutput" [innerHTML]="col.htmlOutput(row[col.key])"></span>
+          <span *ngIf="!col.htmlOutput && col.hidden !== true">{{ row[col.key] }}</span>
+          <span *ngIf="col.htmlOutput && col.hidden !== true" [innerHTML]="col.htmlOutput(row[col.key])"></span>
           <!-- <span *ngIF="!col.outputTransform">{{ row[col.key] }}</span>
             <span *ngIF="col.outputTransform">{{ col.outputTransform(row[col.key]) }}</span> -->
         </td>
