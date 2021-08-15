@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './page/dashboard/dashboard.component';
+import { LoginComponent } from './page/login/login.component';
 import { SpadatasComponent } from './page/spadatas/spadatas.component';
 import { SpareportComponent } from './page/spareport/spareport.component';
 import { UsersComponent } from './page/users/users.component';
@@ -10,31 +11,35 @@ import { WellnessComponent } from './page/wellness/wellness.component';
 const routes: Routes = [
   {
     path: '',
-    component: DashboardComponent
+    component: DashboardComponent,
   },
   {
     path: 'users',
-    component: UsersComponent
+    component: UsersComponent,
   },
   {
     path: 'spadatas',
-    component: SpadatasComponent
+    component: SpadatasComponent,
   },
   {
     path: 'spareport',
-    component: SpareportComponent
+    component: SpareportComponent,
   },
   {
     path: 'wellness',
-    component: WellnessComponent
+    component: WellnessComponent,
   },
   {
     path: 'weather',
-    component: WeatherComponent
+    component: WeatherComponent,
+  },
+  {
+    path: 'login',
+    component: LoginComponent,
   },
   {
     path: '**',
-    redirectTo: ''
+    redirectTo: '',
   }
 ];
 

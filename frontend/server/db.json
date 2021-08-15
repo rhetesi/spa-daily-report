@@ -7,7 +7,8 @@
       "email": "rhetesi@gmail.com",
       "address": "8380, Hévíz, Dr. Schulhof V. stny. 1.",
       "role": 0,
-      "active": true
+      "active": true,
+      "password": "$2a$10$vpbV5Op6sJ1j6/WbhVk1Ueu1.3CGveO5pB62I9U0Q16TlEZz36JEu"
     },
     {
       "_id": "frkfhsrhf3572bjkb3r525",
@@ -16,7 +17,8 @@
       "email": "froland@gmail.com",
       "address": "8380, Hévíz, Dr. Schulhof V. stny. 1.",
       "role": 0,
-      "active": true
+      "active": true,
+      "password": "$2a$10$f9PGCxAnLm2RaeounZZzM.ozx.Fz5eXuesgS9Mn7Hn3iCB2OPPVLW"
     },
     {
       "_id": "kajfidgheurd3u5bn4353b",
@@ -25,7 +27,8 @@
       "email": "kandras@gmail.com",
       "address": "8380, Hévíz, Dr. Schulhof V. stny. 1.",
       "role": 0,
-      "active": false
+      "active": false,
+      "password": "$2a$10$jHJvs1wQ0aWQwppZWvUkDuwXSzbOFuY2YT7g0QbHznEoq80eoySWS"
     }
   ],
   "spadatas": [
@@ -86,9 +89,9 @@
       "_id": "weather8975924jkbds887zh",
       "time": "2021-07-30 18:25:00",
       "waterInside": 35.5,
-      "waterOutside": 33.0,
+      "waterOutside": 33,
       "airMin": 19.7,
-      "airMax": 30.0,
+      "airMax": 30,
       "weatherCondition": "napos, enyhe",
       "dataLogger": "frkfhsrhf3572bjkb3r525"
     },
