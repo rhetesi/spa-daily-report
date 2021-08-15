@@ -4,7 +4,7 @@ export interface ITableColumn {
   title: string;
   key: string;
   hidden?: boolean;
-  outputTransform?: any;
+  // outputTransform?: any;
   htmlOutput?: any;
 }
 
@@ -43,10 +43,14 @@ export class ConfigService {
   weatherColumns: ITableColumn[] = [
     { key: "_id", title: "#" },
     { key: "time", title: "Dátum és idő" },
-    { key: "waterInside", title: "Vízhőfok bent", outputTransform: (v: number) => `${v} Ft` },
-    { key: "waterOutside", title: "Vízhőfok kint", outputTransform: (v: number) => `${v} Ft` },
-    { key: "airMin", title: "Levegő minimum hőfok", outputTransform: (v: number) => `${v} Ft` },
-    { key: "airMax", title: "Levegő maximum hőfok", outputTransform: (v: number) => `${v} Ft` },
+    { key: "waterInside", title: "Vízhőfok bent", },
+    { key: "waterOutside", title: "Vízhőfok kint", },
+    { key: "airMin", title: "Levegő minimum hőfok", },
+    { key: "airMax", title: "Levegő maximum hőfok", },
+    // { key: "waterInside", title: "Vízhőfok bent", outputTransform: (v: number) => `${v} °C` },
+    // { key: "waterOutside", title: "Vízhőfok kint", outputTransform: (v: number) => `${v} °C` },
+    // { key: "airMin", title: "Levegő minimum hőfok", outputTransform: (v: number) => `${v} °C` },
+    // { key: "airMax", title: "Levegő maximum hőfok", outputTransform: (v: number) => `${v} °C` },
     { key: "weatherCondition", title: "Időjárás" },
     { key: "dataLogger", title: "Rögzítette" }
   ];
@@ -67,8 +71,13 @@ export class ConfigService {
 
   constructor() { }
 
+  // static activeSign(v: boolean): string {
+  //   const icon: string = v ? 'fa-check' : 'fa-times';
+  //   return `<i class="fas ${icon}"></i>`;
+  // }
+
   static activeSign(v: boolean): string {
-    const icon: string = v ? 'fa-check' : 'fa-times';
-    return `<i class="fas ${icon}"></i>`;
+    const icon: string = v ? '<i class="fas fa-check"></i>' : '';
+    return icon;
   }
 }
