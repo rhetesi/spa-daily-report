@@ -30,6 +30,20 @@
   ],
   "spadatas": [
     {
+      "_id": "spadatakzcd457hf6n4",
+      "time": "2021-07-29 18:17:00",
+      "sumOfGuests": 2897,
+      "sumOfSauna": 64,
+      "dataLogger": "ada8s7fd9aasf8ass54a7s6f"
+    },
+    {
+      "_id": "spadataencd45z7qj6n8",
+      "time": "2021-07-30 18:25:00",
+      "sumOfGuests": 3173,
+      "sumOfSauna": 58,
+      "dataLogger": "frkfhsrhf3572bjkb3r525"
+    },
+    {
       "_id": "spadatakfcd956hs6n3",
       "time": "2021-07-31 18:19:00",
       "sumOfGuests": 3285,
@@ -39,6 +53,18 @@
   ],
   "spareport": [
     {
+      "_id": "spareportdkj4s43kq7zfs66",
+      "time": "2021-07-29 18:17:00",
+      "report": "Rendkívüli esemény nem történt.",
+      "dataLogger": "ada8s7fd9aasf8ass54a7s6f"
+    },
+    {
+      "_id": "spareportfgjhsre9b45lfs7o",
+      "time": "2021-07-30 18:25:00",
+      "report": "Rendkívüli esemény nem történt.",
+      "dataLogger": "frkfhsrhf3572bjkb3r525"
+    },
+    {
       "_id": "spareportdscds768fdsfs65",
       "time": "2021-07-31 18:19:00",
       "report": "Rendkívüli esemény nem történt.",
@@ -46,6 +72,26 @@
     }
   ],
   "weather": [
+    {
+      "_id": "weather8639z24jwl8s8876q",
+      "time": "2021-07-29 18:17:00",
+      "waterInside": 35.4,
+      "waterOutside": 32.8,
+      "airMin": 14.6,
+      "airMax": 22.2,
+      "weatherCondition": "de.: borús, esős; du.: változó",
+      "dataLogger": "ada8s7fd9aasf8ass54a7s6f"
+    },
+    {
+      "_id": "weather8975924jkbds887zh",
+      "time": "2021-07-30 18:25:00",
+      "waterInside": 35.5,
+      "waterOutside": 33.0,
+      "airMin": 19.7,
+      "airMax": 30.0,
+      "weatherCondition": "napos, enyhe",
+      "dataLogger": "frkfhsrhf3572bjkb3r525"
+    },
     {
       "_id": "weather8975924jkbds887zh",
       "time": "2021-07-31 18:19:00",
@@ -58,6 +104,32 @@
     }
   ],
   "wellnessdatas": [
+    {
+      "_id": "wellness8976r3832bhid78zg3b",
+      "time": "2021-07-30 18:25:00",
+      "massage": 6,
+      "pediAndManiCure": 0,
+      "cosmetics": 1,
+      "medicaExamination": 0,
+      "mudSale": 0,
+      "mudTreatment": 0,
+      "weightBath": 2,
+      "phisioTherapy": 0,
+      "dataLogger": "ada8s7fd9aasf8ass54a7s6f"
+    },
+    {
+      "_id": "wellness8976r3832bhid78zg3b",
+      "time": "2021-07-30 18:25:00",
+      "massage": 20,
+      "pediAndManiCure": 5,
+      "cosmetics": 3,
+      "medicaExamination": 2,
+      "mudSale": 4,
+      "mudTreatment": 0,
+      "weightBath": 6,
+      "phisioTherapy": 2,
+      "dataLogger": "frkfhsrhf3572bjkb3r525"
+    },
     {
       "_id": "wellness8976r3832bhid78zg3b",
       "time": "2021-07-31 18:19:00",
