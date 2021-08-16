@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
+import { AreusFormModule } from './areus-form/areus-form.module';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './common/navigation/navigation.component';
@@ -20,7 +22,6 @@ import { SpadatasEditComponent } from './page/spadatas-edit/spadatas-edit.compon
 import { SpareportEditComponent } from './page/spareport-edit/spareport-edit.component';
 import { WeatherEditComponent } from './page/weather-edit/weather-edit.component';
 import { WellnessEditComponent } from './page/wellness-edit/wellness-edit.component';
-import { AreusFormModule } from './areus-form/areus-form.module';
 
 @NgModule({
   declarations: [
