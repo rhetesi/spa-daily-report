@@ -50,18 +50,6 @@ export class UserEditComponent implements OnInit {
       //new SelectField({key: 'active', label: 'Aktív?', type: 'boolean', value: this.user.active}),
       new InputField({key: 'password', label: 'Jelszó', type: 'text', value: this.user.password as string}),
     ]
-
-    /**
-     * _id: string = '';
-  firstName?: string = '';
-  lastName?: string = '';
-  email?: string = '';
-  address?: string = '';
-  role?: number = 0;
-  active?: boolean = true;
-  password?: string = '';
-  accessToken?: string = '';
-     */
   }
 
   onSave(user: User): void {

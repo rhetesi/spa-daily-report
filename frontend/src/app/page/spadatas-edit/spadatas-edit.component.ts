@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
+import { FieldBase } from 'src/app/areus-form/model/field-base';
+import { InputField } from 'src/app/areus-form/model/input-field';
 import { Spadatas } from 'src/app/model/spadatas';
 import { SpadatasService } from 'src/app/service/spadatas.service';
 
@@ -15,6 +17,9 @@ export class SpadatasEditComponent implements OnInit {
   spadatas$: Observable<Spadatas> = this.ar.params.pipe(
     switchMap(params => this.spadatasService.get(params.id))
   );
+  spadatas: Spadatas = new Spadatas();
+  fields: FieldBase<any>[] = [];
+  showForm: boolean = false;
 
   constructor(
     private spadatasService: SpadatasService,
@@ -23,6 +28,23 @@ export class SpadatasEditComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.spadatas$.subscribe(
+      spadatas => {
+        this.spadatas = spadatas;
+        this.setForm();
+        this.showForm = true;
+      }
+    )
+  }
+
+  setForm(): void {
+    this.fields = [
+      new InputField({ key: '_id', label: '', type: 'hidden', value: this.spadatas._id }),
+      new InputField({key: 'time', label: 'Dátum és idő', type: 'date', value: this.spadatas.time as unknown as string}),
+      new InputField({ key: 'sumOfGuests', label: 'Vendégek száma', type: 'text', value: this.spadatas.sumOfGuests as number }),
+      new InputField({ key: 'sumOfSauna', label: 'Szauna létszám', type: 'text', value: this.spadatas.sumOfSauna as number }),
+      new InputField({ key: 'dataLogger', label: 'Rögzítette', type: 'text', value: this.spadatas.dataLogger as unknown as string }),
+    ]
   }
 
   onSave(spadatas: Spadatas): void {
