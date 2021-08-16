@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { Spadatas } from 'src/app/model/spadatas';
@@ -19,9 +19,16 @@ export class SpadatasEditComponent implements OnInit {
   constructor(
     private spadatasService: SpadatasService,
     private ar: ActivatedRoute,
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
+  }
+
+  onSave(spadatas: Spadatas): void {
+    this.spadatasService.update(spadatas).subscribe(
+      spadatas => this.router.navigate(['/', 'spadatas'])
+    );
   }
 
 }

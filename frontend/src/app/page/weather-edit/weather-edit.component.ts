@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { Weather } from 'src/app/model/weather';
@@ -19,9 +19,16 @@ export class WeatherEditComponent implements OnInit {
   constructor(
     private weatherService: WeatherService,
     private ar: ActivatedRoute,
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
+  }
+
+  onSave(weather: Weather): void {
+    this.weatherService.update(weather).subscribe(
+      weather => this.router.navigate(['/', 'weather'])
+    );
   }
 
 }

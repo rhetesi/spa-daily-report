@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { Wellnessdatas } from 'src/app/model/wellnessdatas';
@@ -19,9 +19,16 @@ export class WellnessEditComponent implements OnInit {
   constructor(
     private wellnessdatasService: WellnessdatasService,
     private ar: ActivatedRoute,
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
+  }
+
+  onSave(wellnessdatas: Wellnessdatas): void {
+    this.wellnessdatasService.update(wellnessdatas).subscribe(
+      wellnessdatas => this.router.navigate(['/', 'wellness'])
+    );
   }
 
 }

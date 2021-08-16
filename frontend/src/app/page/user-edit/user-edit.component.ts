@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { User } from 'src/app/model/user';
@@ -19,9 +19,16 @@ export class UserEditComponent implements OnInit {
   constructor(
     private userService: UserService,
     private ar: ActivatedRoute,
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
+  }
+
+  onSave(user: User): void {
+    this.userService.update(user).subscribe(
+      user => this.router.navigate(['/', 'users'])
+    );
   }
 
 }
