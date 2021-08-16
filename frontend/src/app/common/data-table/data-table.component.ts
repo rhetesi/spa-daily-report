@@ -11,8 +11,10 @@ export class DataTableComponent<T extends {[propname: string]: any}> implements 
 
   @Input() tableColumns: ITableColumn[] = [];
   @Input() list$: Observable<T[]> | null = null;
+  @Input() entity: string = '';
 
   @Output() selectOne: EventEmitter<T> = new EventEmitter<T>();
+  @Output() deleteOne: EventEmitter<T> = new EventEmitter<T>();
 
   constructor(
     private config: ConfigService,
@@ -23,6 +25,10 @@ export class DataTableComponent<T extends {[propname: string]: any}> implements 
 
   onSelect(entity: T): void {
     this.selectOne.emit(entity);
+  }
+
+   onDelete(entity: T): void {
+    this.deleteOne.emit(entity);
   }
 
 }

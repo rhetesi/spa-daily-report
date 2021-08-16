@@ -1,0 +1,2 @@
+# str-hgk-finalexam
+Záróvizsga
