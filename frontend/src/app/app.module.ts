@@ -20,6 +20,7 @@ import { SpadatasEditComponent } from './page/spadatas-edit/spadatas-edit.compon
 import { SpareportEditComponent } from './page/spareport-edit/spareport-edit.component';
 import { WeatherEditComponent } from './page/weather-edit/weather-edit.component';
 import { WellnessEditComponent } from './page/wellness-edit/wellness-edit.component';
+import { AreusFormModule } from './areus-form/areus-form.module';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { WellnessEditComponent } from './page/wellness-edit/wellness-edit.compon
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AreusFormModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
