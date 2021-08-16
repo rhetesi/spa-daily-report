@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Spadatas } from 'src/app/model/spadatas';
 import { ConfigService, ITableColumn } from 'src/app/service/config.service';
@@ -17,9 +18,14 @@ export class SpadatasComponent implements OnInit {
   constructor(
     private config: ConfigService,
     private spadatasService: SpadatasService,
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
+  }
+
+  onSelectOne(spadatas: Spadatas): void {
+    this.router.navigate(['/', 'spadatas', 'edit', spadatas._id]);
   }
 
 }

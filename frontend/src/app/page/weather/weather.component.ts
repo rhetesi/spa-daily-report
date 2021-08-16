@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Weather } from 'src/app/model/weather';
 import { ConfigService, ITableColumn } from 'src/app/service/config.service';
@@ -17,9 +18,14 @@ export class WeatherComponent implements OnInit {
   constructor(
     private config: ConfigService,
     private weatherService: WeatherService,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
+  }
+
+  onSelectOne(weather: Weather): void {
+    this.router.navigate(['/', 'weather', 'edit', weather._id]);
   }
 
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { User } from 'src/app/model/user';
 import { ConfigService, ITableColumn } from 'src/app/service/config.service';
@@ -17,9 +18,14 @@ export class UsersComponent implements OnInit {
   constructor(
     private config: ConfigService,
     private userService: UserService,
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
+  }
+
+  onSelectOne(user: User): void {
+    this.router.navigate(['/', 'user', 'edit', user._id]);
   }
 
 }

@@ -8,7 +8,7 @@
         <i class="fas fa-clipboard-list me-1"></i>
         Napi események listája
       </div>
-      <app-data-table [tableColumns]="tableColumns" [list$]="list$"></app-data-table>
+      <app-data-table [tableColumns]="tableColumns" [list$]="list$" (selectOne)="onSelectOne($event)"></app-data-table>
     </div>
   </div>
 </main>

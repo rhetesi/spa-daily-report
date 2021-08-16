@@ -15,6 +15,11 @@ import { SpadatasComponent } from './page/spadatas/spadatas.component';
 import { SpareportComponent } from './page/spareport/spareport.component';
 import { DataTableComponent } from './common/data-table/data-table.component';
 import { LoginComponent } from './page/login/login.component';
+import { UserEditComponent } from './page/user-edit/user-edit.component';
+import { SpadatasEditComponent } from './page/spadatas-edit/spadatas-edit.component';
+import { SpareportEditComponent } from './page/spareport-edit/spareport-edit.component';
+import { WeatherEditComponent } from './page/weather-edit/weather-edit.component';
+import { WellnessEditComponent } from './page/wellness-edit/wellness-edit.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,12 @@ import { LoginComponent } from './page/login/login.component';
     SpadatasComponent,
     SpareportComponent,
     DataTableComponent,
-    LoginComponent
+    LoginComponent,
+    UserEditComponent,
+    SpadatasEditComponent,
+    SpareportEditComponent,
+    WeatherEditComponent,
+    WellnessEditComponent
   ],
   imports: [
     BrowserModule,

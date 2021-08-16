@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Spareport } from 'src/app/model/spareport';
 import { ConfigService, ITableColumn } from 'src/app/service/config.service';
@@ -17,9 +18,14 @@ export class SpareportComponent implements OnInit {
   constructor(
     private config: ConfigService,
     private spareportService: SpareportService,
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
+  }
+
+  onSelectOne(spareport: Spareport): void {
+    this.router.navigate(['/', 'spareport', 'edit', spareport._id]);
   }
 
 }

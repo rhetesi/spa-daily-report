@@ -30,8 +30,14 @@
           <!-- <span *ngIF="!col.outputTransform">{{ row[col.key] }}</span>
             <span *ngIF="col.outputTransform">{{ col.outputTransform(row[col.key]) }}</span> -->
         </td>
+        <td>
+          <div class="btn-group">
+            <button (click)="onSelect(row)" class="btn btn-info">
+              <i class="fas fa-pencil-alt"></i>
+            </button>
+          </div>
+        </td>
       </tr>
-      <tr></tr>
     </tbody>
   </table>
 </div>
