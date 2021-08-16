@@ -1,19 +1,19 @@
 const express = require('express');
 const createError = require('http-errors');
 
-const Car = require('../../models/car.model');
-const carService = require('./service');
+const User = require('../../models/user.model');
+const userService = require('./service');
 
 // Create a new person.
 exports.create = (req, res, next) => {
-    const validationErrors = new Car(req.body).validateSync();
+    const validationErrors = new User(req.body).validateSync();
     if (validationErrors) {
         return next(
             new createError.BadRequest(validationErrors)
         );
     }
 
-    return carService.create(req.body)
+    return userService.create(req.body)
         .then(cp => {
             res.status(201);
             res.json(cp);
@@ -22,43 +22,43 @@ exports.create = (req, res, next) => {
 };
 
 exports.findAll = (req, res, next) => {
-    return carService.findAll()
-        .then( cars => {
-            res.json(cars);
+    return userService.findAll()
+        .then(users => {
+            res.json(users);
         });
 };
 
 exports.findOne = (req, res, next) => {
-    return carService.findOne(req.params.id)
-        .then( car => {
-            if (!car) {
+    return userService.findOne(req.params.id)
+        .then(user => {
+            if (!user) {
                 return next(new createError.NotFound("Person is not found"));
             }
-            return res.json(car);
+            return res.json(user);
         });
 };
 
 exports.update = (req, res, next) => {
-    const validationErrors = new Car(req.body).validateSync();
+    const validationErrors = new User(req.body).validateSync();
     if (validationErrors) {
         return next(
             new createError.BadRequest(validationErrors)
         );
     }
 
-    return carService.update(req.params.id, req.body)
-        .then(car => {
-            res.json(car);
+    return userService.update(req.params.id, req.body)
+        .then(user => {
+            res.json(user);
         })
-        .catch( err => {
+        .catch(err => {
             next(new createError.InternalServerError(err.message));
         });
 };
 
 exports.delete = (req, res, next) => {
-    return carService.delete(req.params.id)
-        .then( () => res.json({}) )
-        .catch( err => {
+    return userService.delete(req.params.id)
+        .then(() => res.json({}))
+        .catch(err => {
             next(new createError.InternalServerError(err.message));
-        } );
+        });
 };
