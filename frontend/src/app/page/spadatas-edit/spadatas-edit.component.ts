@@ -65,16 +65,4 @@ export class SpadatasEditComponent implements OnInit {
     }
   }
 
-  // onSave(spadata: Spadatas): void {
-  //   if (spadata._id === null) {
-  //     this.spadatasService.create(spadata).subscribe(
-  //       () => this.router.navigate(['/', 'spadatas'])
-  //     );
-  //   } else {
-  //     this.spadatasService.update(spadata).subscribe(
-  //     spadata => this.router.navigate(['/', 'spadatas'])
-  //     );
-  //   }
-  // }
-
 }
