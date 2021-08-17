@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { FieldBase } from 'src/app/areus-form/model/field-base';
 import { InputField } from 'src/app/areus-form/model/input-field';
@@ -15,7 +15,13 @@ import { WellnessdatasService } from 'src/app/service/wellnessdatas.service';
 export class WellnessEditComponent implements OnInit {
 
   wellnessdatas$: Observable<Wellnessdatas> = this.ar.params.pipe(
-    switchMap(params => this.wellnessdatasService.get(params.id))
+    // switchMap(params => this.wellnessdatasService.get(params.id))
+    switchMap(params => {
+      if (params.id === '') {
+        return of(new Wellnessdatas())
+      }
+      return this.wellnessdatasService.get(params.id);
+    })
   );
   wellnessdatas: Wellnessdatas = new Wellnessdatas();
   fields: FieldBase<any>[] = [];
@@ -52,26 +58,18 @@ export class WellnessEditComponent implements OnInit {
       new InputField({ key: 'dataLogger', label: 'Rögzítette', type: 'text', value: this.wellnessdatas.dataLogger as unknown as string }),
     ]
 
-    /**
-     * _id: string = '';
-  time: Date = new Date();
-  massage: number = 0;
-  pediAndManiCure: number = 0;
-  cosmetics: number = 0;
-  medicaExamination: number = 0;
-  mudSale: number = 0;
-  mudTreatment: number = 0;
-  weightBath: number = 0;
-  phisioTherapy: number = 0;
-  dataLogger: User = new User();
-     */
-
   }
 
   onSave(wellnessdatas: Wellnessdatas): void {
-    this.wellnessdatasService.update(wellnessdatas).subscribe(
+    if (wellnessdatas._id === null) {
+      this.wellnessdatasService.create(wellnessdatas).subscribe(
+      () => this.router.navigate(['/', 'wellness'])
+      );
+    } else {
+      this.wellnessdatasService.update(wellnessdatas).subscribe(
       wellnessdatas => this.router.navigate(['/', 'wellness'])
-    );
+      );
+    }
   }
 
 }

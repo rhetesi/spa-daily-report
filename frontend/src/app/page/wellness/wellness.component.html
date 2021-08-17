@@ -8,6 +8,10 @@
         <i class="fas fa-procedures me-1"></i>
         Terápiás és welleness kezelések listája
       </div>
+      <div class="card card-plain mx-3 d-grid gap-2 mt-4">
+        <button type="button" [routerLink]="['/', entity, 'edit', ' ']" class="btn btn-success fw-bold">Új terápiás és
+          wellness adatok felvétele</button>
+      </div>
       <app-data-table [tableColumns]="tableColumns" [list$]="list$" (selectOne)="onSelectOne($event)"></app-data-table>
     </div>
   </div>

@@ -14,6 +14,7 @@ export class WellnessComponent implements OnInit {
 
   tableColumns: ITableColumn[] = this.config.wellnessdatasColumns;
   list$: Observable<Wellnessdatas[]> = this.wellnessdatasService.getAll();
+  entity: string = 'wellness';
 
   constructor(
     private config: ConfigService,
