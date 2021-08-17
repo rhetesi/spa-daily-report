@@ -14,6 +14,7 @@ export class WeatherComponent implements OnInit {
 
   tableColumns: ITableColumn[] = this.config.weatherColumns;
   list$: Observable<Weather[]> = this.weatherService.getAll();
+  entity: string = 'weather';
 
   constructor(
     private config: ConfigService,

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { FieldBase } from 'src/app/areus-form/model/field-base';
 import { InputField } from 'src/app/areus-form/model/input-field';
@@ -15,7 +15,13 @@ import { WeatherService } from 'src/app/service/weather.service';
 export class WeatherEditComponent implements OnInit {
 
   weather$: Observable<Weather> = this.ar.params.pipe(
-    switchMap(params => this.weatherService.get(params.id))
+    // switchMap(params => this.weatherService.get(params.id))
+    switchMap(params => {
+      if (params.id === '') {
+        return of(new Weather())
+      }
+      return this.weatherService.get(params.id);
+    })
   );
   weather: Weather = new Weather();
   fields: FieldBase<any>[] = [];
@@ -50,9 +56,16 @@ export class WeatherEditComponent implements OnInit {
   }
 
   onSave(weather: Weather): void {
-    this.weatherService.update(weather).subscribe(
+
+    if (weather._id === null) {
+      this.weatherService.create(weather).subscribe(
+      () => this.router.navigate(['/', 'weather'])
+      );
+    } else {
+      this.weatherService.update(weather).subscribe(
       weather => this.router.navigate(['/', 'weather'])
-    );
+      );
+    }
   }
 
 }
