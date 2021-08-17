@@ -52,7 +52,7 @@ export class UserEditComponent implements OnInit {
       new InputField({ key: 'email', label: 'Email', type: 'text', value: this.user.email as string }),
       new InputField({ key: 'address', label: 'Cím', type: 'text', value: this.user.address as string }),
       new InputField({ key: 'role', label: 'Jogosultság', type: 'number', value: this.user.role as unknown as number }),
-      //new SelectField({key: 'active', label: 'Aktív?', type: 'boolean', value: this.user.active}),
+      new SelectField({key: 'active', label: 'Aktív?', type: '', value: this.user.active as unknown as string,        controlType: 'select', options: [{value: 'true', label: 'aktív'}, {value: '', label: 'inaktív'}]}),
       new InputField({key: 'password', label: 'Jelszó', type: 'text', value: this.user.password as string}),
     ]
   }

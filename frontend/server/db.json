@@ -6,9 +6,9 @@
       "lastName": "Hetesi",
       "email": "rhetesi@gmail.com",
       "address": "8380, Hévíz, Dr. Schulhof V. stny. 1.",
-      "role": 0,
+      "role": "3",
       "active": true,
-      "password": "$2a$10$vpbV5Op6sJ1j6/WbhVk1Ueu1.3CGveO5pB62I9U0Q16TlEZz36JEu"
+      "password": "$2a$10$mc9WJptPaSXmE1aPCEPMVe0HR5oiOWPfJNAZqZV2uikbKGVKPoDRG"
     },
     {
       "_id": "frkfhsrhf3572bjkb3r525",
@@ -16,9 +16,9 @@
       "lastName": "Fekécs",
       "email": "froland@gmail.com",
       "address": "8380, Hévíz, Dr. Schulhof V. stny. 1.",
-      "role": 0,
+      "role": "3",
       "active": true,
-      "password": "$2a$10$f9PGCxAnLm2RaeounZZzM.ozx.Fz5eXuesgS9Mn7Hn3iCB2OPPVLW"
+      "password": "$2a$10$Q3arqa7RdW4/jglVTzSSx.hiqnw895tDmx2QY1tZ7LuoftjQC3Dqe"
     },
     {
       "_id": "kajfidgheurd3u5bn4353b",
@@ -41,21 +41,43 @@
     },
     {
       "email": "aa@gmail.com",
-      "password": "$2a$10$9QM3uGGLaYt/1AcD.ksMLetHlA/7LsM7rchuVtcjEKtZoryQcqZ6C",
+      "password": "$2a$10$hRI2bRQ.stVUsth9ghQyDuN94iZI1/qlmpG5HNoK3A1nZx01vVIiW",
       "_id": "1d_qbQN",
       "lastName": "Arany",
       "firstName": "András",
       "address": "1014 Budapest, Krisztina tér 1.",
-      "role": "0"
+      "role": "0",
+      "active": ""
     },
     {
       "email": "la@gmail.com",
-      "password": "$2a$10$KpLL0F0jLV2E3fnlLw8jUe2rDil6q3oN.nG/9YbsHHVz1cvqELAQ2",
+      "password": "$2a$10$fIBnTToDXvwYkk4FDHT6nO9HY5wbt/Q61usjGCg2DRwSfnChb1Re2",
       "_id": "68KMeWg",
       "lastName": "Lévay",
       "firstName": "Ágnes",
       "address": "Hévíz, Dr. Schulhof V. stny. 1.",
-      "role": "1"
+      "role": "3",
+      "active": "true"
+    },
+    {
+      "email": "fl@gmail.com",
+      "password": "$2a$10$eMoTYeeT2Y2sdWtfr9Uo0u9Rw.561D9qXIAzDFjek9rRtsWlnef9W",
+      "_id": "l2Cgu5m",
+      "lastName": "Farkas",
+      "firstName": "Lajos",
+      "address": "Hévíz, Dr. Schulhof V. stny. 1.",
+      "role": "2",
+      "active": "true"
+    },
+    {
+      "email": "de@gmail.com",
+      "password": "$2a$10$p23yIB.QzMvR2G9Mf100EOqYuKbCBQ8V6qccG5d8cufUT8KglzYNe",
+      "_id": "MwOlHdv",
+      "lastName": "Dömötör",
+      "firstName": "Enikő",
+      "address": "Hévíz, Dr. Schulhof V. stny. 1.",
+      "role": "2",
+      "active": "true"
     }
   ],
   "spadatas": [
