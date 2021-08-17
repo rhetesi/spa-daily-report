@@ -8,8 +8,8 @@
         <i class="far fa-id-card me-1"></i>
         Felhasználók listája
       </div>
-      <div class="card card-plain mx-3 d-grid gap-2">
-        <button type="button" [routerLink]="['/', entity, 'edit', ' ']" class="btn btn-success fw-bold">Új elem
+      <div class="card card-plain mx-3 d-grid gap-2 mt-4">
+        <button type="button" [routerLink]="['/', entity, 'edit', ' ']" class="btn btn-success fw-bold">Új felhasználó
           felvétele</button>
       </div>
       <app-data-table [tableColumns]="tableColumns" [list$]="list$" (selectOne)="onSelectOne($event)"></app-data-table>

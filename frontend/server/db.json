@@ -47,6 +47,15 @@
       "firstName": "András",
       "address": "1014 Budapest, Krisztina tér 1.",
       "role": "0"
+    },
+    {
+      "email": "la@gmail.com",
+      "password": "$2a$10$KpLL0F0jLV2E3fnlLw8jUe2rDil6q3oN.nG/9YbsHHVz1cvqELAQ2",
+      "_id": "68KMeWg",
+      "lastName": "Lévay",
+      "firstName": "Ágnes",
+      "address": "Hévíz, Dr. Schulhof V. stny. 1.",
+      "role": "1"
     }
   ],
   "spadatas": [
