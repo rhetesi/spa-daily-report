@@ -108,6 +108,13 @@
       "sumOfGuests": "3276",
       "sumOfSauna": "43",
       "dataLogger": "Hetesi Roland"
+    },
+    {
+      "_id": "suRXX_L",
+      "time": "2021-08-18",
+      "sumOfGuests": "2596",
+      "sumOfSauna": "38",
+      "dataLogger": null
     }
   ],
   "spareport": [
