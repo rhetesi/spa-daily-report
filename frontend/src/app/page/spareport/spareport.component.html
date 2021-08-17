@@ -8,6 +8,10 @@
         <i class="fas fa-clipboard-list me-1"></i>
         Napi események listája
       </div>
+      <div class="card card-plain mx-3 d-grid gap-2 mt-4">
+        <button type="button" [routerLink]="['/', entity, 'edit', ' ']" class="btn btn-success fw-bold">Új napi
+          események felvétele</button>
+      </div>
       <app-data-table [tableColumns]="tableColumns" [list$]="list$" (selectOne)="onSelectOne($event)"></app-data-table>
     </div>
   </div>

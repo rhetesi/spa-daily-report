@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { FieldBase } from 'src/app/areus-form/model/field-base';
 import { InputField } from 'src/app/areus-form/model/input-field';
@@ -15,7 +15,13 @@ import { SpareportService } from 'src/app/service/spareport.service';
 export class SpareportEditComponent implements OnInit {
 
   spareport$: Observable<Spareport> = this.ar.params.pipe(
-    switchMap(params => this.spareportService.get(params.id))
+    // switchMap(params => this.spareportService.get(params.id))
+    switchMap(params => {
+      if (params.id === '') {
+        return of(new Spareport())
+      }
+      return this.spareportService.get(params.id);
+    })
   );
   spareport: Spareport = new Spareport();
   fields: FieldBase<any>[] = [];
@@ -47,9 +53,15 @@ export class SpareportEditComponent implements OnInit {
   }
 
   onSave(spareport: Spareport): void {
-    this.spareportService.update(spareport).subscribe(
-      spareport => this.router.navigate(['/', 'spareport'])
-    );
+    if (spareport._id === null) {
+      this.spareportService.create(spareport).subscribe(
+        () => this.router.navigate(['/', 'spareport'])
+      );
+    } else {
+      this.spareportService.update(spareport).subscribe(
+        spareport => this.router.navigate(['/', 'spareport'])
+      );
+    }
   }
 
 }

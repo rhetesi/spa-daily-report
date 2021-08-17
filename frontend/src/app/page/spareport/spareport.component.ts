@@ -14,6 +14,7 @@ export class SpareportComponent implements OnInit {
 
   tableColumns: ITableColumn[] = this.config.spareportColumns;
   list$: Observable<Spareport[]> = this.spareportService.getAll();
+  entity: string = 'spareport';
 
   constructor(
     private config: ConfigService,
