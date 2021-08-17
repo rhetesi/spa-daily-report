@@ -14,6 +14,7 @@ export class SpadatasComponent implements OnInit {
 
   tableColumns: ITableColumn[] = this.config.spadatasColumns;
   list$: Observable<Spadatas[]> = this.spadatasService.getAll();
+  entity: string = 'spadata';
 
   constructor(
     private config: ConfigService,

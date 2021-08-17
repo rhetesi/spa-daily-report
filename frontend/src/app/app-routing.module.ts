@@ -31,7 +31,7 @@ const routes: Routes = [
     component: SpadatasComponent,
   },
   {
-    path: 'spadatas/edit/:id',
+    path: 'spadata/edit/:id',
     component: SpadatasEditComponent,
   },
   {

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { FieldBase } from 'src/app/areus-form/model/field-base';
 import { InputField } from 'src/app/areus-form/model/input-field';
@@ -15,7 +15,13 @@ import { SpadatasService } from 'src/app/service/spadatas.service';
 export class SpadatasEditComponent implements OnInit {
 
   spadatas$: Observable<Spadatas> = this.ar.params.pipe(
-    switchMap(params => this.spadatasService.get(params.id))
+    // switchMap(params => this.spadatasService.get(params.id))
+    switchMap(params => {
+      if (params.id === '') {
+        return of(new Spadatas())
+      }
+      return this.spadatasService.get(params.id);
+    })
   );
   spadatas: Spadatas = new Spadatas();
   fields: FieldBase<any>[] = [];
@@ -48,9 +54,27 @@ export class SpadatasEditComponent implements OnInit {
   }
 
   onSave(spadatas: Spadatas): void {
-    this.spadatasService.update(spadatas).subscribe(
-      spadatas => this.router.navigate(['/', 'spadatas'])
-    );
+    if (spadatas._id === null) {
+      this.spadatasService.create(spadatas).subscribe(
+        () => this.router.navigate(['/', 'spadatas'])
+      );
+    } else {
+      this.spadatasService.update(spadatas).subscribe(
+        spadatas => this.router.navigate(['/', 'spadatas'])
+      );
+    }
   }
+
+  // onSave(spadata: Spadatas): void {
+  //   if (spadata._id === null) {
+  //     this.spadatasService.create(spadata).subscribe(
+  //       () => this.router.navigate(['/', 'spadatas'])
+  //     );
+  //   } else {
+  //     this.spadatasService.update(spadata).subscribe(
+  //     spadata => this.router.navigate(['/', 'spadatas'])
+  //     );
+  //   }
+  // }
 
 }
