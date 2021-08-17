@@ -29,6 +29,24 @@
       "role": 0,
       "active": false,
       "password": "$2a$10$jHJvs1wQ0aWQwppZWvUkDuwXSzbOFuY2YT7g0QbHznEoq80eoySWS"
+    },
+    {
+      "email": "gj@gmail.com",
+      "password": "$2a$10$FMAlucArb.W9MtzoTfQnyeY9Ba/07.Na3tWcayZIK63QbTKuimfQG",
+      "_id": "2gwzyRh",
+      "lastName": "Gipsz",
+      "firstName": "Jakab",
+      "address": "Hévíz, Dr. Schulhof V. stny. 1.",
+      "role": "1"
+    },
+    {
+      "email": "aa@gmail.com",
+      "password": "$2a$10$9QM3uGGLaYt/1AcD.ksMLetHlA/7LsM7rchuVtcjEKtZoryQcqZ6C",
+      "_id": "1d_qbQN",
+      "lastName": "Arany",
+      "firstName": "András",
+      "address": "1014 Budapest, Krisztina tér 1.",
+      "role": "0"
     }
   ],
   "spadatas": [

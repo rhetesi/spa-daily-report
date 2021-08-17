@@ -58,7 +58,7 @@ export class UserEditComponent implements OnInit {
   }
 
   onSave(user: User): void {
-    if (user._id === '') {
+    if (user._id === null) {
       this.userService.create(user).subscribe(
         () => this.router.navigate(['/', 'users'])
       );
