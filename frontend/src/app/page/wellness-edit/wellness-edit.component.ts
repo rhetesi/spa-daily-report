@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
@@ -46,8 +47,8 @@ export class WellnessEditComponent implements OnInit {
   setForm(): void {
     this.fields = [
       new InputField({ key: '_id', label: '', type: 'hidden', value: this.wellnessdatas._id }),
-      new InputField({key: 'time', label: 'Dátum és idő', type: 'date', value: this.wellnessdatas.time as unknown as string}),
-      new InputField({ key: 'massage', label: 'Masszázsok', type: 'number', value: this.wellnessdatas.massage as unknown as number }),
+      new InputField({ key: 'time', label: 'Dátum és idő', type: 'date', value: this.wellnessdatas.time as unknown as string, validators: [Validators.required] }),
+      new InputField({ key: 'massage', label: 'Masszázsok', type: 'number', value: this.wellnessdatas.massage as unknown as number, validators: [Validators.required] }),
       new InputField({ key: 'pediAndManiCure', label: 'Manikűr és pedikűr', type: 'number', value: this.wellnessdatas.pediAndManiCure as unknown as number }),
       new InputField({ key: 'cosmetics', label: 'Kozmetika', type: 'number', value: this.wellnessdatas.cosmetics as unknown as number }),
       new InputField({ key: 'medicalExamination', label: 'Orvosi vizsgálat', type: 'number', value: this.wellnessdatas.medicaExamination as unknown as number }),

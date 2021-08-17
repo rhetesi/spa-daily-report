@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
@@ -46,11 +47,12 @@ export class WeatherEditComponent implements OnInit {
   setForm(): void {
     this.fields = [
       new InputField({ key: '_id', label: '', type: 'hidden', value: this.weather._id }),
-      new InputField({key: 'time', label: 'Dátum és idő', type: 'date', value: this.weather.time as unknown as string}),
-      new InputField({ key: 'waterInside', label: 'Belső vízhőfok', type: 'number', value: this.weather.waterInside as unknown as number }),
-      new InputField({ key: 'waterOutside', label: 'Külső vízhőfok', type: 'number', value: this.weather.waterOutside as unknown as number }),
+      new InputField({ key: 'time', label: 'Dátum és idő', type: 'date', value: this.weather.time as unknown as string, validators: [Validators.required] }),
+      new InputField({ key: 'waterInside', label: 'Belső vízhőfok', type: 'number', value: this.weather.waterInside as unknown as number, validators: [Validators.required] }),
+      new InputField({ key: 'waterOutside', label: 'Külső vízhőfok', type: 'number', value: this.weather.waterOutside as unknown as number, validators: [Validators.required] }),
       new InputField({ key: 'airMin', label: 'Levegő minimum hőfoka', type: 'number', value: this.weather.airMin as unknown as number }),
       new InputField({ key: 'airMax', label: 'Levegő maximum hőfoka', type: 'number', value: this.weather.airMax as unknown as number }),
+      new InputField({key: 'weatherCondition', label: 'Időjárás', type: 'text', value: this.weather.weatherCondition, validators: [Validators.required]}),
       new InputField({ key: 'dataLogger', label: 'Rögzítette', type: 'text', value: this.weather.dataLogger as unknown as string }),
     ]
   }

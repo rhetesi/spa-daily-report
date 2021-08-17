@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
@@ -46,8 +47,8 @@ export class SpareportEditComponent implements OnInit {
   setForm(): void {
     this.fields = [
       new InputField({ key: '_id', label: '', type: 'hidden', value: this.spareport._id }),
-      new InputField({key: 'time', label: 'Dátum és idő', type: 'date', value: this.spareport.time as unknown as string}),
-      new InputField({ key: 'report', label: 'Napi események', type: 'text', value: this.spareport.report as string }),
+      new InputField({ key: 'time', label: 'Dátum és idő', type: 'date', value: this.spareport.time as unknown as string, validators: [Validators.required] }),
+      new InputField({ key: 'report', label: 'Napi események', type: 'text', value: this.spareport.report as string, validators: [Validators.required] }),
       new InputField({ key: 'dataLogger', label: 'Rögzítette', type: 'text', value: this.spareport.dataLogger as unknown as string }),
     ]
   }

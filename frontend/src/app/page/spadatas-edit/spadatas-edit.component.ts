@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
@@ -46,9 +47,9 @@ export class SpadatasEditComponent implements OnInit {
   setForm(): void {
     this.fields = [
       new InputField({ key: '_id', label: '', type: 'hidden', value: this.spadatas._id }),
-      new InputField({key: 'time', label: 'Dátum és idő', type: 'date', value: this.spadatas.time as unknown as string}),
-      new InputField({ key: 'sumOfGuests', label: 'Vendégek száma', type: 'text', value: this.spadatas.sumOfGuests as number }),
-      new InputField({ key: 'sumOfSauna', label: 'Szauna létszám', type: 'text', value: this.spadatas.sumOfSauna as number }),
+      new InputField({key: 'time', label: 'Dátum és idő', type: 'date', value: this.spadatas.time as unknown as string, validators: [Validators.required] }),
+      new InputField({ key: 'sumOfGuests', label: 'Vendégek száma', type: 'text', value: this.spadatas.sumOfGuests as number, validators: [Validators.required] }),
+      new InputField({ key: 'sumOfSauna', label: 'Szauna létszám', type: 'text', value: this.spadatas.sumOfSauna as number, validators: [Validators.required] }),
       new InputField({ key: 'dataLogger', label: 'Rögzítette', type: 'text', value: this.spadatas.dataLogger as unknown as string }),
     ]
   }
