@@ -29,4 +29,13 @@ export class WellnessComponent implements OnInit {
     this.router.navigate(['/', 'wellness', 'edit', wellness._id]);
   }
 
+  onDeleteOne(wellnessdatas: Wellnessdatas): void {
+    if (window.confirm('Biztosan törli a választott kezelés sort?')) {
+      this.wellnessdatasService.remove(wellnessdatas._id).subscribe(
+        () => this.list$ = this.wellnessdatasService.getAll()
+      )
+      window.alert('A választott kezeél sor törlődött!')
+    }
+  }
+
 }
