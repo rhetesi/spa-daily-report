@@ -29,4 +29,13 @@ export class UsersComponent implements OnInit {
     this.router.navigate(['/', 'user', 'edit', user._id]);
   }
 
+  onDeleteOne(user: User): void {
+    if (window.confirm('Biztosan törli a felhasználót?')) {
+      this.userService.remove(user._id).subscribe(
+        () => this.list$ = this.userService.getAll()
+      )
+      window.alert('A felhasználó törlődött!')
+    }
+  }
+
 }
