@@ -12,7 +12,8 @@
         <button type="button" [routerLink]="['/', entity, 'edit', ' ']" class="btn btn-success fw-bold">Új belépésszám
           felvétele</button>
       </div>
-      <app-data-table [tableColumns]="tableColumns" [list$]="list$" (selectOne)="onSelectOne($event)"></app-data-table>
+      <app-data-table [tableColumns]="tableColumns" [list$]="list$" (selectOne)="onSelectOne($event)"
+        (deleteOne)="onDeleteOne($event)"></app-data-table>
     </div>
   </div>
 </main>

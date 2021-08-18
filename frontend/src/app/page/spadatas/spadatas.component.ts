@@ -29,4 +29,13 @@ export class SpadatasComponent implements OnInit {
     this.router.navigate(['/', 'spadatas', 'edit', spadatas._id]);
   }
 
+  onDeleteOne(spadatas: Spadatas): void {
+    if (window.confirm('Biztosan törli az adatsort?')) {
+      this.spadatasService.remove(spadatas._id).subscribe(
+        () => this.list$ = this.spadatasService.getAll()
+      )
+      window.alert('Az adatsor törlődött!')
+    }
+  }
+
 }
