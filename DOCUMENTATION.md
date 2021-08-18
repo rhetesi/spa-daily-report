@@ -10,11 +10,21 @@ Az alkalmazás egy fürdő eddig papíron vezetett napi üzemviteli naplójának
 
 # 3. Az alkalmazás konfigurálása
 
-A _base.service.ts_ állományban be kell állítani az API végpont elérési útvonalát.
+A frontend/src/app/service/config.service.ts és a backend/src/index.js állományban be kell állítani az API végpont elérési útvonalát:
+
+http://localhost:3000
 
 # 4. Az alkalmazás indítása
 
 A megadott Docker container indítása és inicializálása.
+
+El kell indítani a Docker Desktop alkalmazást.
+A backend mappába belépve a terminálban ki kell adni az
+npm run dev
+parancsot.
+(A frontend mappában a terminálban az
+npm start
+paranccsal indítható a frontend.)
 
 A belépéshez egy érvényes e-mail-cím és jelszó szükséges.
 
@@ -25,7 +35,9 @@ Jelszó: testelek
 
 # 5. A végpontok dokumentációja
 
-swagger
+[Swagger](http://localhost:3000/api-docs/)
+
+`http://localhost:3000/api-docs/`
 
 # 6. Linkek
 
