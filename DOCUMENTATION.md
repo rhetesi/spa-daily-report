@@ -30,8 +30,8 @@ A belépéshez egy érvényes e-mail-cím és jelszó szükséges.
 
 Egy érvényes példa:
 
-E-mail: te@gmail.com
-Jelszó: testelek
+- E-mail: te@gmail.com
+- Jelszó: testelek
 
 # 5. A végpontok dokumentációja
 
