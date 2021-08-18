@@ -29,4 +29,13 @@ export class WeatherComponent implements OnInit {
     this.router.navigate(['/', 'weather', 'edit', weather._id]);
   }
 
+  onDeleteOne(weather: Weather): void {
+    if (window.confirm('Biztosan törli a választott időjárási adatsort?')) {
+      this.weatherService.remove(weather._id).subscribe(
+        () => this.list$ = this.weatherService.getAll()
+      )
+      window.alert('A választott időjárási adatsor törlődött!')
+    }
+  }
+
 }
