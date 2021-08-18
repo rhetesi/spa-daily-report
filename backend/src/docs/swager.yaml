@@ -1,23 +1,23 @@
 openapi: 3.0.0
 info:
   version: 1.0.0
-  title: FullStack Developers Final Exam API
-  description: An API for the FullStack Developers Final Exam
+  title: FullStack Developers Spa Daily Report API
+  description: An API for the FullStack Spa Daily Report
 servers:
   - url: http://localhost:3000
 paths:
-  /cars:
+  /users:
     get:
-      description: Returns a list of cars
+      description: Returns a list of users
       responses:
         "200":
-          description: List of cars returned successfully
+          description: List of users returned successfully
           content:
             application/json:
               schema:
                 type: array
                 items:
-                  $ref: "#/components/schemas/Car"
+                  $ref: "#/components/schemas/User"
         "500":
           description: Internal server error
           content:
@@ -25,20 +25,20 @@ paths:
               schema:
                 $ref: "#/components/schemas/Error"
     post:
-      description: Creates a new car
+      description: Creates a new user
       requestBody:
         required: true
         content:
           application/json:
             schema:
-              $ref: "#/components/schemas/Car"
+              $ref: "#/components/schemas/User"
       responses:
         "201":
-          description: Car has been created successfully
+          description: User has been created successfully
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/Car"
+                $ref: "#/components/schemas/User"
         "400":
           description: Invalid request when the post data is invalid
           content:
@@ -51,9 +51,9 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Error"
-  /cars/{_id}:
+  /users/{_id}:
     get:
-      description: Get a car
+      description: Get a user
       parameters:
         - in: path
           name: _id
@@ -62,14 +62,14 @@ paths:
             type: string
       responses:
         "200":
-          description: Returns a Car
+          description: Returns a User
           content:
             application/json:
               schema:
                 type: object
-                $ref: "#/components/schemas/Car"
+                $ref: "#/components/schemas/User"
         "404":
-          description: Car based on id is doesn't exist
+          description: User based on id is doesn't exist
           content:
             application/json:
               schema:
@@ -81,7 +81,7 @@ paths:
               schema:
                 $ref: "#/components/schemas/Error"
     patch:
-      description: Updates a car
+      description: Updates a user
       parameters:
         - in: path
           name: _id
@@ -93,14 +93,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: "#/components/schemas/Car"
+              $ref: "#/components/schemas/User"
       responses:
         "200":
-          description: Car has been updated successfully
+          description: User has been updated successfully
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/Car"
+                $ref: "#/components/schemas/User"
         "400":
           description: Invalid request when the post data is invalid
           content:
@@ -114,7 +114,7 @@ paths:
               schema:
                 $ref: "#/components/schemas/Error"
     delete:
-      description: Removes a car
+      description: Removes a user
       parameters:
         - in: path
           name: _id
@@ -123,14 +123,14 @@ paths:
             type: string
       responses:
         "200":
-          description: Car has been deleted successfully
+          description: User has been deleted successfully
           content:
             application/json:
               schema:
                 type: object
                 example: {}
         "404":
-          description: Car based on id is doesn't exist
+          description: User based on id is doesn't exist
           content:
             application/json:
               schema:
@@ -141,18 +141,18 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Error"
-  /races:
+  /spadatas:
     get:
-      description: Returns a list of races
+      description: Returns a list of spadatas
       responses:
         "200":
-          description: List of races returned successfully
+          description: List of spadatas returned successfully
           content:
             application/json:
               schema:
                 type: array
                 items:
-                  $ref: "#/components/schemas/Race"
+                  $ref: "#/components/schemas/Spadatas"
         "500":
           description: Internal server error
           content:
@@ -160,20 +160,20 @@ paths:
               schema:
                 $ref: "#/components/schemas/Error"
     post:
-      description: Creates a new race
+      description: Creates a new spadata
       requestBody:
         required: true
         content:
           application/json:
             schema:
-              $ref: "#/components/schemas/Race"
+              $ref: "#/components/schemas/Spadatas"
       responses:
         "201":
-          description: Race has been created successfully
+          description: Spadata has been created successfully
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/Race"
+                $ref: "#/components/schemas/Spadatas"
         "400":
           description: Invalid request when the post data is invalid
           content:
@@ -186,9 +186,9 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Error"
-  /races/{_id}:
+  /spadatas/{_id}:
     get:
-      description: Get a race
+      description: Get a spadata
       parameters:
         - in: path
           name: _id
@@ -197,14 +197,14 @@ paths:
             type: string
       responses:
         "200":
-          description: Returns a Race
+          description: Returns a Spadata
           content:
             application/json:
               schema:
                 type: object
-                $ref: "#/components/schemas/Race"
+                $ref: "#/components/schemas/Spadatas"
         "404":
-          description: Race based on id is doesn't exist
+          description: Spadata based on id is doesn't exist
           content:
             application/json:
               schema:
@@ -216,7 +216,7 @@ paths:
               schema:
                 $ref: "#/components/schemas/Error"
     patch:
-      description: Updates a race
+      description: Updates a spadata
       parameters:
         - in: path
           name: _id
@@ -228,14 +228,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: "#/components/schemas/Race"
+              $ref: "#/components/schemas/Spadatas"
       responses:
         "200":
-          description: Race has been updated successfully
+          description: Spadata has been updated successfully
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/Race"
+                $ref: "#/components/schemas/Spadatas"
         "400":
           description: Invalid request when the post data is invalid
           content:
@@ -249,7 +249,7 @@ paths:
               schema:
                 $ref: "#/components/schemas/Error"
     delete:
-      description: Removes a race
+      description: Removes a spadata
       parameters:
         - in: path
           name: _id
@@ -258,14 +258,419 @@ paths:
             type: string
       responses:
         "200":
-          description: Race has been deleted successfully
+          description: Spadata has been deleted successfully
           content:
             application/json:
               schema:
                 type: object
                 example: {}
         "404":
-          description: Race based on id is doesn't exist
+          description: Spadata based on id is doesn't exist
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /spareport:
+    get:
+      description: Returns a list of spareport
+      responses:
+        "200":
+          description: List of spareport returned successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Spareport"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+    post:
+      description: Creates a new spadata
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Spareport"
+      responses:
+        "201":
+          description: Spadata has been created successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Spareport"
+        "400":
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /spareports/{_id}:
+    get:
+      description: Get a spareport
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns a Spareport
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Spareport"
+        "404":
+          description: Spareport based on id is doesn't exist
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+    patch:
+      description: Updates a spareport
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Spareport"
+      responses:
+        "200":
+          description: Spareport has been updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Spareport"
+        "400":
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+    delete:
+      description: Removes a spareport
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Spareport has been deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                example: {}
+        "404":
+          description: Spareport based on id is doesn't exist
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /weather:
+    get:
+      description: Returns a list of weather
+      responses:
+        "200":
+          description: List of weather returned successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Weather"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+    post:
+      description: Creates a new weather
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Weather"
+      responses:
+        "201":
+          description: Spadata has been created successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Weather"
+        "400":
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /weather/{_id}:
+    get:
+      description: Get a weather
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns a weather data
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Weather"
+        "404":
+          description: Weather based on id is doesn't exist
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+    patch:
+      description: Updates a weather
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Weather"
+      responses:
+        "200":
+          description: Weather has been updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Weather"
+        "400":
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+    delete:
+      description: Removes a weather data
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Weather has been deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                example: {}
+        "404":
+          description: Weather based on id is doesn't exist
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /wellnessdatas:
+    get:
+      description: Returns a list of wellnessdatas
+      responses:
+        "200":
+          description: List of wellnessdatas returned successfully
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/WellnessDatas"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+    post:
+      description: Creates a new spadata
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WellnessDatas"
+      responses:
+        "201":
+          description: Spadata has been created successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WellnessDatas"
+        "400":
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /wellnessdatas/{_id}:
+    get:
+      description: Get a wellnessdatas
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Returns a Wellnessdatas
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/WellnessDatas"
+        "404":
+          description: Wellnessdatas based on id is doesn't exist
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+    patch:
+      description: Updates a wellnessdata
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WellnessDatas"
+      responses:
+        "200":
+          description: Wellnessdatas has been updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WellnessDatas"
+        "400":
+          description: Invalid request when the post data is invalid
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "500":
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+    delete:
+      description: Removes a wellnessdata
+      parameters:
+        - in: path
+          name: _id
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Spareport has been deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                example: {}
+        "404":
+          description: Spareport based on id is doesn't exist
           content:
             application/json:
               schema:
@@ -278,43 +683,114 @@ paths:
                 $ref: "#/components/schemas/Error"
 components:
   schemas:
-    Car:
+    User:
       type: object
       required:
-        - model
-        - year
-        - maker
       properties:
-        model:
+        firstName:
           type: string
-        year:
+        lastName:
           type: number
-        maker:
+        email:
           type: string
-        price:
+        address:
+          type: string
+        role:
           type: number
         active:
           type: boolean
-    Race:
+        password:
+          type: string
+        accessToken:
+          type: string
+    Spadatas:
       type: object
       required:
-        - date
-        - teams
-        - street
-        - city
+        - time
+        - sumOfGuests
+        - sumOfSauna
+        - dataLogger
       properties:
-        date:
+        time:
           type: string
-        teams:
+        sumOfGuests:
           type: number
-        street:
+        sumOfSauna:
+          type: number
+        dataLogger:
           type: string
-        city:
+    Spareport:
+      type: object
+      required:
+        - time
+        - report
+        - dataLogger
+      properties:
+        time:
           type: string
-        country:
+        report:
+          type: number
+        dataLogger:
           type: string
-        active:
-          type: boolean
+    Weather:
+      type: object
+      required:
+        - time
+        - waterInside
+        - waterOutside
+        - airMin
+        - airMax
+        - weatherCondition
+        - dataLogger
+      properties:
+        time:
+          type: string
+        waterInside:
+          type: number
+        waterOutside:
+          type: number
+        airMin:
+          type: number
+        airMax:
+          type: number
+        weatherCondition:
+          type: string
+        dataLogger:
+          type: string
+    Wellnessdatas:
+      type: object
+      required:
+        - time
+        - massage
+        - pediAndManiCure
+        - cosmetics
+        - medicaExamination
+        - mudSale
+        - mudTreatment
+        - weightBath
+        - phisioTherapy
+        - dataLogger
+      properties:
+        time:
+          type: string
+        massage:
+          type: number
+        pediAndManiCure:
+          type: number
+        cosmetics:
+          type: number
+        medicaExamination:
+          type: number
+        mudSale:
+          type: number
+        mudTreatment:
+          type: number
+        weightBath:
+          type: number
+        phisioTherapy:
+          type: number
+        dataLogger:
+          type: string
     Error:
       type: object
       required:
