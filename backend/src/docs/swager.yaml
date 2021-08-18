@@ -321,7 +321,7 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Error"
-  /spareports/{_id}:
+  /spareport/{_id}:
     get:
       description: Get a spareport
       parameters:
