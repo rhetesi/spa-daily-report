@@ -4,7 +4,7 @@ Az alkalmazás egy fürdő eddig papíron vezetett napi üzemviteli naplójának
 
 # 2. Az alkalmazás telepítése
 
-- Klónozni kell az adott GitHub repository tartalmát a célgépre.
+- Klónozni kell az adott [GitHub](https://github.com/rhetesi/spa-daily-report) repository tartalmát a célgépre.
 - Telepíteni kell az alkalmazás függőségeit az `npm i` paranccsal.
 - Ha további fejlesztések szükségesek, akkor telepíteni kell az Angular keretrendszert az `npm i -g @angular/cli` paranccsal.
 
