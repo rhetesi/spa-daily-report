@@ -1,8 +1,8 @@
 const fsp = require('fs').promises;
 const User = require('../models/user.model');
-const Spadatas = require('../models/spadatas');
-const Spareport = require('../models/spareport');
-const Weather = require('../models/weather');
+const Spadatas = require('../models/spadatas.model');
+const Spareport = require('../models/spareport.model');
+const Weather = require('../models/weather.model');
 const WellnessDatas = require('../models/wellnessdatas.model');
 
 

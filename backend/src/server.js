@@ -41,10 +41,10 @@ app.use(bodyParser.json());
 
 // Router.
 app.use('/users', require('./controllers/user/routes'));
-app.use('/spadata', require('./controllers/spadatas/routes'));
+app.use('/spadatas', require('./controllers/spadatas/routes'));
 app.use('/spareport', require('./controllers/spareport/routes'));
 app.use('/weather', require('./controllers/weather/routes'));
-app.use('/wellness', require('./controllers/wellnessdatas/routes'));
+app.use('/wellnessdatas', require('./controllers/wellnessdatas/routes'));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.use((err, req, res, next) => {
