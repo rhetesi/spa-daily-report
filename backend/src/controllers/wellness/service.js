@@ -1,4 +1,4 @@
-const Model = require('../../models/service.model');
+const Model = require('../../models/wellness.model');
 
 exports.create = requestData => {
     const entity = new Model(requestData);
@@ -9,6 +9,8 @@ exports.findAll = () => Model.find().populate();
 
 exports.findOne = id => Model.findById(id).populate();
 
-exports.update = (id, updateData) => Model.findByIdAndUpdate(id, updateData, {new: true});
+exports.update = (id, updateData) => Model.findByIdAndUpdate(id, updateData, {
+    new: true
+});
 
 exports.delete = id => Model.findByIdAndRemove(id);

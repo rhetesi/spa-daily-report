@@ -1,10 +1,10 @@
 const express = require('express');
 const createError = require('http-errors');
 
-const Model = require('../../models/service.model');
+const Model = require('../../models/spareport.model');
 const service = require('./service');
 
-// Create a new person.
+// Create a new spareport data.
 exports.create = (req, res, next) => {
     const validationErrors = new Model(req.body).validateSync();
     if (validationErrors) {
@@ -23,16 +23,16 @@ exports.create = (req, res, next) => {
 
 exports.findAll = (req, res, next) => {
     return service.findAll()
-        .then( list => {
+        .then(list => {
             res.json(list);
         });
 };
 
 exports.findOne = (req, res, next) => {
     return service.findOne(req.params.id)
-        .then( entity => {
+        .then(entity => {
             if (!entity) {
-                return next(new createError.NotFound("Person is not found"));
+                return next(new createError.NotFound("Spareport is not found"));
             }
             return res.json(entity);
         });
@@ -50,15 +50,15 @@ exports.update = (req, res, next) => {
         .then(entity => {
             res.json(entity);
         })
-        .catch( err => {
+        .catch(err => {
             next(new createError.InternalServerError(err.message));
         });
 };
 
 exports.delete = (req, res, next) => {
     return service.delete(req.params.id)
-        .then( () => res.json({}) )
-        .catch( err => {
+        .then(() => res.json({}))
+        .catch(err => {
             next(new createError.InternalServerError(err.message));
-        } );
+        });
 };
