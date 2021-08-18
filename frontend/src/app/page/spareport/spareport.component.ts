@@ -29,4 +29,13 @@ export class SpareportComponent implements OnInit {
     this.router.navigate(['/', 'spareport', 'edit', spareport._id]);
   }
 
+  onDeleteOne(spareport: Spareport): void {
+    if (window.confirm('Biztosan törli a választott napi eseménysort?')) {
+      this.spareportService.remove(spareport._id).subscribe(
+        () => this.list$ = this.spareportService.getAll()
+      )
+      window.alert('A választott napi eseménysor törlődött!')
+    }
+  }
+
 }
