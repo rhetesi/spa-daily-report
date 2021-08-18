@@ -11,6 +11,10 @@ const cors = require('./config/cors');
 mongoose.Promise = global.Promise;
 
 // Authenctication.
+const authenticateJwt = require('./auth/authenticate');
+const adminOnly = require('./auth/adminOnly');
+const authHandler = require('./auth/authHandler');
+
 const swaggerDocument = YAML.load('./src/docs/swager.yaml');
 
 const {
@@ -40,8 +44,12 @@ app.use(express.static('public'));
 app.use(bodyParser.json());
 
 // Router.
+app.post('/login', authHandler.login);
+app.post('/refresh', authHandler.refresh);
+app.post('/logout', authHandler.logout);
+
 app.use('/users', require('./controllers/user/routes'));
-app.use('/spadatas', require('./controllers/spadatas/routes'));
+app.use('/spadatas', authenticateJwt, require('./controllers/spadatas/routes'));
 app.use('/spareport', require('./controllers/spareport/routes'));
 app.use('/weather', require('./controllers/weather/routes'));
 app.use('/wellnessdatas', require('./controllers/wellnessdatas/routes'));
