@@ -28,14 +28,14 @@ const seedCollection = async (model, fileName) => {
 (async () => {
 
     try {
-        await Car.db.dropCollection('cars');
+        await User.db.dropCollection('users');
     } catch (e) {
-        console.log('CARS NOT FOUND');
+        console.log('USERS NOT FOUND');
     }
 
     seedCollection(User, 'users');
-    seedCollection(Car, 'cars');
-    seedCollection(Customer, 'customers');
-    seedCollection(Race, 'races');
-    seedCollection(Service, 'services');
+    // seedCollection(Car, 'cars');
+    // seedCollection(Customer, 'customers');
+    // seedCollection(Race, 'races');
+    // seedCollection(Service, 'services');
 })();
