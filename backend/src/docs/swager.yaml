@@ -757,7 +757,7 @@ components:
           type: string
         dataLogger:
           type: string
-    Wellnessdatas:
+    WellnessDatas:
       type: object
       required:
         - time

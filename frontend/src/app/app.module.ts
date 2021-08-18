@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
 import { AreusFormModule } from './areus-form/areus-form.module';
@@ -22,6 +22,7 @@ import { SpadatasEditComponent } from './page/spadatas-edit/spadatas-edit.compon
 import { SpareportEditComponent } from './page/spareport-edit/spareport-edit.component';
 import { WeatherEditComponent } from './page/weather-edit/weather-edit.component';
 import { WellnessEditComponent } from './page/wellness-edit/wellness-edit.component';
+import { JwtInterceptorInterceptor } from './service/jwt-interceptor.interceptor';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,13 @@ import { WellnessEditComponent } from './page/wellness-edit/wellness-edit.compon
     FormsModule,
     AreusFormModule,
   ],
-  providers: [],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: JwtInterceptorInterceptor,
+      multi: true
+    },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
