@@ -729,7 +729,7 @@ components:
         time:
           type: string
         report:
-          type: number
+          type: string
         dataLogger:
           type: string
     Weather:
