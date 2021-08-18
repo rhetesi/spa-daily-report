@@ -1,4 +1,5 @@
 const fsp = require('fs').promises;
+const User = require('../models/user.model');
 const Car = require('../models/car.model');
 const Race = require('../models/race.model');
 const Customer = require('../models/customer.model');
@@ -12,24 +13,27 @@ const seedCollection = async (model, fileName) => {
         }
     } catch (e) {
         const source = await fsp.readFile(
-            `./src/seed/${fileName}.json`, 
+            `./src/seed/${fileName}.json`,
             'utf8'
         );
         const list = JSON.parse(source);
         if (model && model.insertMany) {
-            await model.insertMany(list, {limit: 100});
+            await model.insertMany(list, {
+                limit: 100
+            });
         }
     }
 };
 
-( async () => {
+(async () => {
 
     try {
         await Car.db.dropCollection('cars');
-    } catch(e) {
+    } catch (e) {
         console.log('CARS NOT FOUND');
     }
 
+    seedCollection(User, 'users');
     seedCollection(Car, 'cars');
     seedCollection(Customer, 'customers');
     seedCollection(Race, 'races');
