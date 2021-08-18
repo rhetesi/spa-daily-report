@@ -1,9 +1,10 @@
 const fsp = require('fs').promises;
 const User = require('../models/user.model');
-const Car = require('../models/car.model');
-const Race = require('../models/race.model');
-const Customer = require('../models/customer.model');
-const Service = require('../models/service.model');
+const Spadatas = require('../models/spadatas');
+const Spareport = require('../models/spareport');
+const Weather = require('../models/weather');
+const WellnessDatas = require('../models/wellnessdatas.model');
+
 
 const seedCollection = async (model, fileName) => {
     try {
@@ -34,8 +35,10 @@ const seedCollection = async (model, fileName) => {
     }
 
     seedCollection(User, 'users');
-    // seedCollection(Car, 'cars');
-    // seedCollection(Customer, 'customers');
-    // seedCollection(Race, 'races');
-    // seedCollection(Service, 'services');
+    seedCollection(Spadatas, 'spadatas');
+    seedCollection(Spareport, 'spareport');
+    seedCollection(Weather, 'weather');
+    seedCollection(WellnessDatas, 'wellnessdatas');
+
+
 })();

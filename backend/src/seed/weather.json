@@ -1,0 +1,902 @@
+[
+    {
+        "time": "2021-07-16 02:38:30",
+        "waterInside": 31.0,
+        "waterOutside": 26.8,
+        "airMin": -19.4,
+        "airMax": 22.9,
+        "weatherCondition": "havazás",
+        "dataLogger": "Abigail Camden"
+    },
+    {
+        "time": "2020-08-20 11:35:25",
+        "waterInside": 34.5,
+        "waterOutside": 34.6,
+        "airMin": -7.9,
+        "airMax": 27.5,
+        "weatherCondition": "borús",
+        "dataLogger": "Claude McCraine"
+    },
+    {
+        "time": "2021-03-06 23:12:21",
+        "waterInside": 30.2,
+        "waterOutside": 25.2,
+        "airMin": 11.0,
+        "airMax": 23.8,
+        "weatherCondition": "esős",
+        "dataLogger": "Elle Linnit"
+    },
+    {
+        "time": "2021-08-11 06:57:32",
+        "waterInside": 34.0,
+        "waterOutside": 29.0,
+        "airMin": 19.5,
+        "airMax": 37.8,
+        "weatherCondition": "napos",
+        "dataLogger": "Udell Le Port"
+    },
+    {
+        "time": "2020-06-26 05:14:28",
+        "waterInside": 30.6,
+        "waterOutside": 29.2,
+        "airMin": -13.7,
+        "airMax": 20.6,
+        "weatherCondition": "szeles",
+        "dataLogger": "Benedict Eastes"
+    },
+    {
+        "time": "2021-04-22 14:09:02",
+        "waterInside": 33.3,
+        "waterOutside": 22.2,
+        "airMin": 30.7,
+        "airMax": 42.3,
+        "weatherCondition": "zivatar",
+        "dataLogger": "Shepperd Austick"
+    },
+    {
+        "time": "2020-08-07 00:25:15",
+        "waterInside": 34.3,
+        "waterOutside": 29.6,
+        "airMin": 12.7,
+        "airMax": 44.8,
+        "weatherCondition": "szeles",
+        "dataLogger": "Jania Costy"
+    },
+    {
+        "time": "2021-02-14 12:29:00",
+        "waterInside": 32.3,
+        "waterOutside": 22.2,
+        "airMin": 26.9,
+        "airMax": 33.1,
+        "weatherCondition": "szeles",
+        "dataLogger": "Timmy Pellingar"
+    },
+    {
+        "time": "2020-05-11 01:27:40",
+        "waterInside": 34.2,
+        "waterOutside": 27.0,
+        "airMin": -19.2,
+        "airMax": 43.9,
+        "weatherCondition": "viharos",
+        "dataLogger": "Celestyna Henriksson"
+    },
+    {
+        "time": "2021-08-11 14:47:30",
+        "waterInside": 34.5,
+        "waterOutside": 32.2,
+        "airMin": 25.6,
+        "airMax": 41.7,
+        "weatherCondition": "havazás",
+        "dataLogger": "Tracie Costley"
+    },
+    {
+        "time": "2021-03-12 16:45:52",
+        "waterInside": 32.8,
+        "waterOutside": 33.6,
+        "airMin": 13.8,
+        "airMax": 23.0,
+        "weatherCondition": "zivatar",
+        "dataLogger": "Ludvig Blazynski"
+    },
+    {
+        "time": "2020-09-07 02:52:13",
+        "waterInside": 35.1,
+        "waterOutside": 22.2,
+        "airMin": -6.7,
+        "airMax": 20.8,
+        "weatherCondition": "viharos",
+        "dataLogger": "Emmit Garaghan"
+    },
+    {
+        "time": "2021-03-08 13:35:24",
+        "waterInside": 35.0,
+        "waterOutside": 28.0,
+        "airMin": 22.4,
+        "airMax": 29.5,
+        "weatherCondition": "szeles",
+        "dataLogger": "Costanza Yarrington"
+    },
+    {
+        "time": "2020-07-23 00:32:27",
+        "waterInside": 35.1,
+        "waterOutside": 30.7,
+        "airMin": 32.4,
+        "airMax": 43.6,
+        "weatherCondition": "esős",
+        "dataLogger": "Catlaina Ellwand"
+    },
+    {
+        "time": "2020-08-23 19:48:35",
+        "waterInside": 31.4,
+        "waterOutside": 27.4,
+        "airMin": -7.3,
+        "airMax": 39.1,
+        "weatherCondition": "borús",
+        "dataLogger": "Cchaddie Wilcockes"
+    },
+    {
+        "time": "2021-08-05 17:58:28",
+        "waterInside": 33.7,
+        "waterOutside": 30.1,
+        "airMin": 25.2,
+        "airMax": 38.3,
+        "weatherCondition": "viharos",
+        "dataLogger": "Minny Grabert"
+    },
+    {
+        "time": "2020-05-07 02:14:42",
+        "waterInside": 30.5,
+        "waterOutside": 35.2,
+        "airMin": -8.1,
+        "airMax": 21.0,
+        "weatherCondition": "viharos",
+        "dataLogger": "Yoshiko D'Enrico"
+    },
+    {
+        "time": "2021-03-21 23:27:29",
+        "waterInside": 33.6,
+        "waterOutside": 24.1,
+        "airMin": 7.2,
+        "airMax": 40.9,
+        "weatherCondition": "borús",
+        "dataLogger": "Jodi Matusov"
+    },
+    {
+        "time": "2021-06-02 18:46:18",
+        "waterInside": 33.5,
+        "waterOutside": 30.5,
+        "airMin": 17.7,
+        "airMax": 43.3,
+        "weatherCondition": "esős",
+        "dataLogger": "Barty Oldfield"
+    },
+    {
+        "time": "2020-07-09 01:50:27",
+        "waterInside": 31.9,
+        "waterOutside": 31.5,
+        "airMin": -6.5,
+        "airMax": 29.0,
+        "weatherCondition": "viharos",
+        "dataLogger": "Sayer Lehmann"
+    },
+    {
+        "time": "2020-07-16 17:07:15",
+        "waterInside": 33.4,
+        "waterOutside": 36.7,
+        "airMin": 15.2,
+        "airMax": 21.7,
+        "weatherCondition": "szeles",
+        "dataLogger": "Eldridge Spratling"
+    },
+    {
+        "time": "2020-11-19 13:00:54",
+        "waterInside": 36.3,
+        "waterOutside": 27.1,
+        "airMin": 15.5,
+        "airMax": 41.2,
+        "weatherCondition": "esős",
+        "dataLogger": "Prinz Gebhard"
+    },
+    {
+        "time": "2021-08-15 22:24:36",
+        "waterInside": 31.1,
+        "waterOutside": 31.1,
+        "airMin": 28.3,
+        "airMax": 30.9,
+        "weatherCondition": "zivatar",
+        "dataLogger": "Briana Symmers"
+    },
+    {
+        "time": "2021-04-23 03:18:38",
+        "waterInside": 32.6,
+        "waterOutside": 37.4,
+        "airMin": 18.6,
+        "airMax": 34.8,
+        "weatherCondition": "havazás",
+        "dataLogger": "Randene Androlli"
+    },
+    {
+        "time": "2021-05-23 01:07:50",
+        "waterInside": 35.8,
+        "waterOutside": 32.6,
+        "airMin": 6.9,
+        "airMax": 37.0,
+        "weatherCondition": "esős",
+        "dataLogger": "Tamarra Hallam"
+    },
+    {
+        "time": "2020-10-13 22:08:31",
+        "waterInside": 31.9,
+        "waterOutside": 36.9,
+        "airMin": 2.2,
+        "airMax": 41.3,
+        "weatherCondition": "borús",
+        "dataLogger": "Ulises Falkus"
+    },
+    {
+        "time": "2021-06-21 08:43:51",
+        "waterInside": 35.1,
+        "waterOutside": 37.5,
+        "airMin": -2.2,
+        "airMax": 31.0,
+        "weatherCondition": "zivatar",
+        "dataLogger": "Bronnie Tague"
+    },
+    {
+        "time": "2020-07-02 16:55:31",
+        "waterInside": 36.3,
+        "waterOutside": 36.1,
+        "airMin": 15.1,
+        "airMax": 34.0,
+        "weatherCondition": "esős",
+        "dataLogger": "Darill Goscar"
+    },
+    {
+        "time": "2020-06-03 08:40:50",
+        "waterInside": 36.3,
+        "waterOutside": 29.9,
+        "airMin": 26.3,
+        "airMax": 29.5,
+        "weatherCondition": "esős",
+        "dataLogger": "Warde Sparrow"
+    },
+    {
+        "time": "2020-10-09 22:00:28",
+        "waterInside": 35.9,
+        "waterOutside": 35.3,
+        "airMin": -19.2,
+        "airMax": 30.8,
+        "weatherCondition": "zivatar",
+        "dataLogger": "Gertrud Squibbes"
+    },
+    {
+        "time": "2020-06-21 15:56:42",
+        "waterInside": 32.9,
+        "waterOutside": 35.7,
+        "airMin": 30.7,
+        "airMax": 21.4,
+        "weatherCondition": "zivatar",
+        "dataLogger": "Rupert McInteer"
+    },
+    {
+        "time": "2020-10-17 22:13:20",
+        "waterInside": 34.6,
+        "waterOutside": 22.6,
+        "airMin": 33.4,
+        "airMax": 25.9,
+        "weatherCondition": "borús",
+        "dataLogger": "Shelagh Durdy"
+    },
+    {
+        "time": "2021-01-08 18:19:09",
+        "waterInside": 30.2,
+        "waterOutside": 28.5,
+        "airMin": -19.4,
+        "airMax": 38.3,
+        "weatherCondition": "havazás",
+        "dataLogger": "Janel Stickels"
+    },
+    {
+        "time": "2020-10-22 01:44:46",
+        "waterInside": 34.5,
+        "waterOutside": 33.1,
+        "airMin": -3.0,
+        "airMax": 31.4,
+        "weatherCondition": "napos",
+        "dataLogger": "Ethelda Gummery"
+    },
+    {
+        "time": "2020-08-14 14:34:06",
+        "waterInside": 36.3,
+        "waterOutside": 27.9,
+        "airMin": 13.8,
+        "airMax": 38.5,
+        "weatherCondition": "zivatar",
+        "dataLogger": "Abel Lobbe"
+    },
+    {
+        "time": "2020-11-19 18:34:05",
+        "waterInside": 31.4,
+        "waterOutside": 25.4,
+        "airMin": -8.3,
+        "airMax": 22.3,
+        "weatherCondition": "borús",
+        "dataLogger": "Steven Ellinor"
+    },
+    {
+        "time": "2021-07-11 09:24:30",
+        "waterInside": 34.3,
+        "waterOutside": 23.1,
+        "airMin": 21.8,
+        "airMax": 26.8,
+        "weatherCondition": "borús",
+        "dataLogger": "Dorisa Kuhwald"
+    },
+    {
+        "time": "2021-07-17 07:06:48",
+        "waterInside": 33.7,
+        "waterOutside": 33.7,
+        "airMin": -16.0,
+        "airMax": 36.9,
+        "weatherCondition": "napos",
+        "dataLogger": "Maddi Loynes"
+    },
+    {
+        "time": "2021-05-08 13:02:32",
+        "waterInside": 32.1,
+        "waterOutside": 28.6,
+        "airMin": 3.7,
+        "airMax": 44.9,
+        "weatherCondition": "szeles",
+        "dataLogger": "Philip Shirland"
+    },
+    {
+        "time": "2020-09-30 10:35:27",
+        "waterInside": 30.1,
+        "waterOutside": 30.1,
+        "airMin": -17.6,
+        "airMax": 22.0,
+        "weatherCondition": "napos",
+        "dataLogger": "Camala Van Dijk"
+    },
+    {
+        "time": "2021-03-14 16:17:16",
+        "waterInside": 31.4,
+        "waterOutside": 26.2,
+        "airMin": -11.3,
+        "airMax": 40.4,
+        "weatherCondition": "viharos",
+        "dataLogger": "Riannon McIllrick"
+    },
+    {
+        "time": "2021-07-26 03:27:29",
+        "waterInside": 36.8,
+        "waterOutside": 37.8,
+        "airMin": -10.6,
+        "airMax": 28.9,
+        "weatherCondition": "esős",
+        "dataLogger": "Beatriz Hudson"
+    },
+    {
+        "time": "2021-04-07 15:40:22",
+        "waterInside": 35.2,
+        "waterOutside": 32.2,
+        "airMin": 13.6,
+        "airMax": 40.6,
+        "weatherCondition": "havazás",
+        "dataLogger": "Tybi Piner"
+    },
+    {
+        "time": "2021-06-28 11:30:01",
+        "waterInside": 32.5,
+        "waterOutside": 31.6,
+        "airMin": 2.9,
+        "airMax": 34.0,
+        "weatherCondition": "szeles",
+        "dataLogger": "Bill Yashin"
+    },
+    {
+        "time": "2021-07-20 12:29:20",
+        "waterInside": 32.0,
+        "waterOutside": 27.4,
+        "airMin": -8.4,
+        "airMax": 28.9,
+        "weatherCondition": "zivatar",
+        "dataLogger": "Eartha Teaze"
+    },
+    {
+        "time": "2020-12-27 19:19:22",
+        "waterInside": 31.9,
+        "waterOutside": 22.5,
+        "airMin": 27.3,
+        "airMax": 20.9,
+        "weatherCondition": "borús",
+        "dataLogger": "Flossi Judd"
+    },
+    {
+        "time": "2020-08-10 20:16:39",
+        "waterInside": 33.5,
+        "waterOutside": 27.4,
+        "airMin": -9.4,
+        "airMax": 39.1,
+        "weatherCondition": "borús",
+        "dataLogger": "Sharron Martinson"
+    },
+    {
+        "time": "2020-09-14 13:17:16",
+        "waterInside": 31.2,
+        "waterOutside": 25.7,
+        "airMin": -3.6,
+        "airMax": 29.4,
+        "weatherCondition": "szeles",
+        "dataLogger": "Alexina Belt"
+    },
+    {
+        "time": "2020-09-25 05:04:32",
+        "waterInside": 34.3,
+        "waterOutside": 35.4,
+        "airMin": 1.0,
+        "airMax": 31.1,
+        "weatherCondition": "viharos",
+        "dataLogger": "Orin Brattell"
+    },
+    {
+        "time": "2021-08-12 15:52:28",
+        "waterInside": 32.0,
+        "waterOutside": 30.4,
+        "airMin": 25.8,
+        "airMax": 43.1,
+        "weatherCondition": "havazás",
+        "dataLogger": "Consolata Groom"
+    },
+    {
+        "time": "2020-07-14 21:31:14",
+        "waterInside": 34.7,
+        "waterOutside": 31.1,
+        "airMin": 16.1,
+        "airMax": 26.5,
+        "weatherCondition": "szeles",
+        "dataLogger": "Starlin Wadman"
+    },
+    {
+        "time": "2021-08-11 23:43:32",
+        "waterInside": 33.9,
+        "waterOutside": 36.7,
+        "airMin": -9.4,
+        "airMax": 29.5,
+        "weatherCondition": "havazás",
+        "dataLogger": "Dorian Clinch"
+    },
+    {
+        "time": "2021-05-29 11:48:54",
+        "waterInside": 34.6,
+        "waterOutside": 36.4,
+        "airMin": 7.6,
+        "airMax": 33.2,
+        "weatherCondition": "zivatar",
+        "dataLogger": "Starla Flipsen"
+    },
+    {
+        "time": "2021-03-09 21:48:14",
+        "waterInside": 32.8,
+        "waterOutside": 23.0,
+        "airMin": -12.3,
+        "airMax": 41.6,
+        "weatherCondition": "szeles",
+        "dataLogger": "Carmelle Parham"
+    },
+    {
+        "time": "2020-12-04 01:16:34",
+        "waterInside": 32.7,
+        "waterOutside": 24.0,
+        "airMin": 12.5,
+        "airMax": 40.4,
+        "weatherCondition": "havazás",
+        "dataLogger": "Ashil Rudsdell"
+    },
+    {
+        "time": "2020-12-09 09:57:46",
+        "waterInside": 34.6,
+        "waterOutside": 32.7,
+        "airMin": -11.6,
+        "airMax": 20.5,
+        "weatherCondition": "esős",
+        "dataLogger": "Laurie Darbon"
+    },
+    {
+        "time": "2020-09-12 16:47:17",
+        "waterInside": 30.6,
+        "waterOutside": 23.2,
+        "airMin": 4.1,
+        "airMax": 38.9,
+        "weatherCondition": "napos",
+        "dataLogger": "Tilly Soughton"
+    },
+    {
+        "time": "2020-11-13 05:03:51",
+        "waterInside": 35.9,
+        "waterOutside": 28.0,
+        "airMin": -13.6,
+        "airMax": 39.7,
+        "weatherCondition": "szeles",
+        "dataLogger": "Helli Burriss"
+    },
+    {
+        "time": "2020-10-19 20:33:40",
+        "waterInside": 30.5,
+        "waterOutside": 37.8,
+        "airMin": 11.2,
+        "airMax": 24.5,
+        "weatherCondition": "esős",
+        "dataLogger": "Derry Lantiffe"
+    },
+    {
+        "time": "2021-04-11 22:08:00",
+        "waterInside": 35.7,
+        "waterOutside": 23.3,
+        "airMin": -9.1,
+        "airMax": 32.2,
+        "weatherCondition": "borús",
+        "dataLogger": "Dannie Hoult"
+    },
+    {
+        "time": "2021-03-26 10:15:34",
+        "waterInside": 33.3,
+        "waterOutside": 22.3,
+        "airMin": -1.3,
+        "airMax": 42.2,
+        "weatherCondition": "szeles",
+        "dataLogger": "Bird Peace"
+    },
+    {
+        "time": "2021-02-17 04:43:25",
+        "waterInside": 32.9,
+        "waterOutside": 34.2,
+        "airMin": -11.6,
+        "airMax": 32.3,
+        "weatherCondition": "esős",
+        "dataLogger": "Salomo Matzaitis"
+    },
+    {
+        "time": "2020-07-16 11:27:56",
+        "waterInside": 35.4,
+        "waterOutside": 32.3,
+        "airMin": 15.2,
+        "airMax": 29.8,
+        "weatherCondition": "esős",
+        "dataLogger": "Nikolaus Rymmer"
+    },
+    {
+        "time": "2021-03-02 15:45:15",
+        "waterInside": 34.9,
+        "waterOutside": 27.7,
+        "airMin": 33.6,
+        "airMax": 42.3,
+        "weatherCondition": "esős",
+        "dataLogger": "Walsh Neligan"
+    },
+    {
+        "time": "2020-09-27 09:00:50",
+        "waterInside": 30.0,
+        "waterOutside": 32.5,
+        "airMin": -17.4,
+        "airMax": 35.0,
+        "weatherCondition": "havazás",
+        "dataLogger": "Jodi Olman"
+    },
+    {
+        "time": "2021-03-14 19:13:51",
+        "waterInside": 32.1,
+        "waterOutside": 30.2,
+        "airMin": 2.2,
+        "airMax": 31.2,
+        "weatherCondition": "esős",
+        "dataLogger": "Scarlet Housby"
+    },
+    {
+        "time": "2021-06-16 04:56:11",
+        "waterInside": 33.5,
+        "waterOutside": 22.1,
+        "airMin": 30.3,
+        "airMax": 21.0,
+        "weatherCondition": "napos",
+        "dataLogger": "Matthieu Pitbladdo"
+    },
+    {
+        "time": "2021-01-17 08:56:18",
+        "waterInside": 33.2,
+        "waterOutside": 34.7,
+        "airMin": 3.0,
+        "airMax": 34.7,
+        "weatherCondition": "esős",
+        "dataLogger": "Hazlett Winnister"
+    },
+    {
+        "time": "2021-02-03 01:28:13",
+        "waterInside": 30.6,
+        "waterOutside": 22.1,
+        "airMin": -7.1,
+        "airMax": 22.8,
+        "weatherCondition": "szeles",
+        "dataLogger": "Lisette Haglinton"
+    },
+    {
+        "time": "2020-10-09 16:51:52",
+        "waterInside": 36.8,
+        "waterOutside": 33.7,
+        "airMin": 14.2,
+        "airMax": 26.6,
+        "weatherCondition": "esős",
+        "dataLogger": "Gris Fones"
+    },
+    {
+        "time": "2020-08-12 04:31:22",
+        "waterInside": 31.2,
+        "waterOutside": 28.5,
+        "airMin": 30.2,
+        "airMax": 32.8,
+        "weatherCondition": "szeles",
+        "dataLogger": "Addi Misson"
+    },
+    {
+        "time": "2021-07-29 10:03:15",
+        "waterInside": 33.0,
+        "waterOutside": 25.9,
+        "airMin": 12.8,
+        "airMax": 20.1,
+        "weatherCondition": "szeles",
+        "dataLogger": "Nikki Brogioni"
+    },
+    {
+        "time": "2020-08-16 07:15:58",
+        "waterInside": 35.9,
+        "waterOutside": 32.1,
+        "airMin": 31.0,
+        "airMax": 43.4,
+        "weatherCondition": "viharos",
+        "dataLogger": "Vasily Hatto"
+    },
+    {
+        "time": "2021-07-04 18:52:49",
+        "waterInside": 35.1,
+        "waterOutside": 32.7,
+        "airMin": 24.8,
+        "airMax": 21.9,
+        "weatherCondition": "borús",
+        "dataLogger": "Neddie Pflieger"
+    },
+    {
+        "time": "2020-06-17 05:36:20",
+        "waterInside": 33.7,
+        "waterOutside": 27.7,
+        "airMin": 3.8,
+        "airMax": 38.6,
+        "weatherCondition": "borús",
+        "dataLogger": "Oren Killock"
+    },
+    {
+        "time": "2020-07-23 01:05:31",
+        "waterInside": 31.2,
+        "waterOutside": 37.6,
+        "airMin": 7.7,
+        "airMax": 22.7,
+        "weatherCondition": "szeles",
+        "dataLogger": "Eldredge Cardenoza"
+    },
+    {
+        "time": "2020-12-09 14:08:34",
+        "waterInside": 30.5,
+        "waterOutside": 26.3,
+        "airMin": 2.0,
+        "airMax": 28.0,
+        "weatherCondition": "szeles",
+        "dataLogger": "Ari Stockau"
+    },
+    {
+        "time": "2020-09-02 08:33:36",
+        "waterInside": 33.8,
+        "waterOutside": 37.4,
+        "airMin": 17.8,
+        "airMax": 36.6,
+        "weatherCondition": "szeles",
+        "dataLogger": "Lazaro Barrick"
+    },
+    {
+        "time": "2020-12-21 23:33:30",
+        "waterInside": 34.0,
+        "waterOutside": 29.5,
+        "airMin": 29.1,
+        "airMax": 44.1,
+        "weatherCondition": "szeles",
+        "dataLogger": "Joyann Gatling"
+    },
+    {
+        "time": "2020-09-04 08:13:34",
+        "waterInside": 35.9,
+        "waterOutside": 32.7,
+        "airMin": 5.3,
+        "airMax": 23.8,
+        "weatherCondition": "havazás",
+        "dataLogger": "Jacobo Slixby"
+    },
+    {
+        "time": "2021-03-19 22:01:02",
+        "waterInside": 36.8,
+        "waterOutside": 32.2,
+        "airMin": -18.1,
+        "airMax": 22.2,
+        "weatherCondition": "szeles",
+        "dataLogger": "Arron Dineges"
+    },
+    {
+        "time": "2020-11-08 06:35:46",
+        "waterInside": 36.8,
+        "waterOutside": 26.4,
+        "airMin": 17.9,
+        "airMax": 30.7,
+        "weatherCondition": "szeles",
+        "dataLogger": "Erin Ottewill"
+    },
+    {
+        "time": "2021-05-15 04:42:51",
+        "waterInside": 30.9,
+        "waterOutside": 36.2,
+        "airMin": 27.3,
+        "airMax": 34.7,
+        "weatherCondition": "napos",
+        "dataLogger": "Aleece Seneschal"
+    },
+    {
+        "time": "2021-02-09 08:36:15",
+        "waterInside": 31.0,
+        "waterOutside": 24.0,
+        "airMin": 26.2,
+        "airMax": 26.1,
+        "weatherCondition": "havazás",
+        "dataLogger": "Cherlyn Southwood"
+    },
+    {
+        "time": "2021-05-25 21:09:42",
+        "waterInside": 33.8,
+        "waterOutside": 35.2,
+        "airMin": 2.3,
+        "airMax": 24.2,
+        "weatherCondition": "esős",
+        "dataLogger": "Tracee Mulberry"
+    },
+    {
+        "time": "2021-01-21 16:25:14",
+        "waterInside": 31.6,
+        "waterOutside": 22.9,
+        "airMin": -3.2,
+        "airMax": 30.7,
+        "weatherCondition": "borús",
+        "dataLogger": "Emyle Glanz"
+    },
+    {
+        "time": "2020-10-09 10:52:25",
+        "waterInside": 37.0,
+        "waterOutside": 33.6,
+        "airMin": -15.7,
+        "airMax": 30.8,
+        "weatherCondition": "szeles",
+        "dataLogger": "Estelle Seaking"
+    },
+    {
+        "time": "2021-04-07 07:23:56",
+        "waterInside": 34.1,
+        "waterOutside": 31.3,
+        "airMin": -5.6,
+        "airMax": 36.6,
+        "weatherCondition": "szeles",
+        "dataLogger": "Cly Haire"
+    },
+    {
+        "time": "2021-06-22 03:27:01",
+        "waterInside": 34.0,
+        "waterOutside": 23.8,
+        "airMin": -9.8,
+        "airMax": 20.8,
+        "weatherCondition": "havazás",
+        "dataLogger": "Eden Airlie"
+    },
+    {
+        "time": "2020-10-10 00:59:58",
+        "waterInside": 36.8,
+        "waterOutside": 31.5,
+        "airMin": -6.1,
+        "airMax": 29.3,
+        "weatherCondition": "havazás",
+        "dataLogger": "Danie Girk"
+    },
+    {
+        "time": "2020-07-29 18:53:19",
+        "waterInside": 33.9,
+        "waterOutside": 34.4,
+        "airMin": 0.5,
+        "airMax": 41.5,
+        "weatherCondition": "esős",
+        "dataLogger": "Barde Harbisher"
+    },
+    {
+        "time": "2021-06-20 11:33:49",
+        "waterInside": 33.9,
+        "waterOutside": 29.1,
+        "airMin": 34.2,
+        "airMax": 44.4,
+        "weatherCondition": "borús",
+        "dataLogger": "Roxie Aughton"
+    },
+    {
+        "time": "2021-03-31 23:25:57",
+        "waterInside": 33.6,
+        "waterOutside": 34.5,
+        "airMin": 28.4,
+        "airMax": 32.5,
+        "weatherCondition": "esős",
+        "dataLogger": "Trudy Leetham"
+    },
+    {
+        "time": "2021-05-06 07:06:20",
+        "waterInside": 31.1,
+        "waterOutside": 23.7,
+        "airMin": 17.6,
+        "airMax": 39.4,
+        "weatherCondition": "szeles",
+        "dataLogger": "Vin Austins"
+    },
+    {
+        "time": "2021-06-12 16:31:56",
+        "waterInside": 32.1,
+        "waterOutside": 27.6,
+        "airMin": 3.8,
+        "airMax": 23.1,
+        "weatherCondition": "napos",
+        "dataLogger": "Deanne Coddrington"
+    },
+    {
+        "time": "2021-04-18 03:32:39",
+        "waterInside": 30.8,
+        "waterOutside": 37.6,
+        "airMin": 26.6,
+        "airMax": 22.6,
+        "weatherCondition": "havazás",
+        "dataLogger": "Delphine Massen"
+    },
+    {
+        "time": "2021-08-04 19:50:54",
+        "waterInside": 33.5,
+        "waterOutside": 33.4,
+        "airMin": 4.0,
+        "airMax": 31.3,
+        "weatherCondition": "napos",
+        "dataLogger": "Stanislaw Staley"
+    },
+    {
+        "time": "2020-06-08 12:42:40",
+        "waterInside": 32.3,
+        "waterOutside": 31.3,
+        "airMin": 20.4,
+        "airMax": 21.2,
+        "weatherCondition": "viharos",
+        "dataLogger": "Magnum Dable"
+    },
+    {
+        "time": "2020-05-05 20:36:45",
+        "waterInside": 32.2,
+        "waterOutside": 33.1,
+        "airMin": 29.8,
+        "airMax": 20.5,
+        "weatherCondition": "borús",
+        "dataLogger": "Les Dun"
+    },
+    {
+        "time": "2020-08-17 09:47:00",
+        "waterInside": 36.2,
+        "waterOutside": 33.5,
+        "airMin": -7.7,
+        "airMax": 43.9,
+        "weatherCondition": "esős",
+        "dataLogger": "Matthaeus Pennino"
+    }
+]

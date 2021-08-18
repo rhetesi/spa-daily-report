@@ -1,0 +1,602 @@
+[
+    {
+        "time": "2021-07-06 04:11:38",
+        "sumOfGuests": 5673,
+        "sumOfSauna": 191,
+        "dataLogger": "Billy Simonitto"
+    },
+    {
+        "time": "2020-08-12 12:09:32",
+        "sumOfGuests": 1888,
+        "sumOfSauna": 52,
+        "dataLogger": "Ariana Wanless"
+    },
+    {
+        "time": "2020-10-06 23:44:13",
+        "sumOfGuests": 5977,
+        "sumOfSauna": 37,
+        "dataLogger": "Leicester Hammerstone"
+    },
+    {
+        "time": "2020-12-12 13:19:34",
+        "sumOfGuests": 5790,
+        "sumOfSauna": 168,
+        "dataLogger": "Sallyann Abrahmson"
+    },
+    {
+        "time": "2020-11-29 01:22:21",
+        "sumOfGuests": 1051,
+        "sumOfSauna": 135,
+        "dataLogger": "Phil Vaillant"
+    },
+    {
+        "time": "2021-03-16 07:58:54",
+        "sumOfGuests": 3347,
+        "sumOfSauna": 109,
+        "dataLogger": "Harwilll Brundall"
+    },
+    {
+        "time": "2020-06-09 00:37:20",
+        "sumOfGuests": 3692,
+        "sumOfSauna": 161,
+        "dataLogger": "Cozmo Hebborne"
+    },
+    {
+        "time": "2021-02-04 03:35:44",
+        "sumOfGuests": 3986,
+        "sumOfSauna": 79,
+        "dataLogger": "Jarrad Wadworth"
+    },
+    {
+        "time": "2021-02-04 21:25:47",
+        "sumOfGuests": 1399,
+        "sumOfSauna": 187,
+        "dataLogger": "Cary Clericoates"
+    },
+    {
+        "time": "2020-08-19 14:36:44",
+        "sumOfGuests": 2616,
+        "sumOfSauna": 95,
+        "dataLogger": "Agosto Juza"
+    },
+    {
+        "time": "2021-07-13 22:09:15",
+        "sumOfGuests": 5019,
+        "sumOfSauna": 44,
+        "dataLogger": "Dianna Eddins"
+    },
+    {
+        "time": "2021-07-05 04:35:38",
+        "sumOfGuests": 5359,
+        "sumOfSauna": 97,
+        "dataLogger": "Kellia Hassewell"
+    },
+    {
+        "time": "2021-01-07 11:13:57",
+        "sumOfGuests": 3093,
+        "sumOfSauna": 8,
+        "dataLogger": "Jory Scamel"
+    },
+    {
+        "time": "2020-07-18 00:27:37",
+        "sumOfGuests": 2952,
+        "sumOfSauna": 92,
+        "dataLogger": "Valma Kiddle"
+    },
+    {
+        "time": "2020-07-19 08:37:00",
+        "sumOfGuests": 5516,
+        "sumOfSauna": 181,
+        "dataLogger": "Lay Regorz"
+    },
+    {
+        "time": "2021-05-28 11:00:24",
+        "sumOfGuests": 1543,
+        "sumOfSauna": 147,
+        "dataLogger": "Sigfried Burdell"
+    },
+    {
+        "time": "2021-08-11 22:27:28",
+        "sumOfGuests": 4690,
+        "sumOfSauna": 248,
+        "dataLogger": "Finley Couvert"
+    },
+    {
+        "time": "2021-02-18 00:06:58",
+        "sumOfGuests": 5115,
+        "sumOfSauna": 152,
+        "dataLogger": "Gerti Halt"
+    },
+    {
+        "time": "2021-01-27 18:52:02",
+        "sumOfGuests": 1962,
+        "sumOfSauna": 89,
+        "dataLogger": "Brittney Skurm"
+    },
+    {
+        "time": "2020-08-27 22:26:05",
+        "sumOfGuests": 2034,
+        "sumOfSauna": 179,
+        "dataLogger": "Reeba Creswell"
+    },
+    {
+        "time": "2020-11-24 14:23:41",
+        "sumOfGuests": 4384,
+        "sumOfSauna": 106,
+        "dataLogger": "Ellynn Olyff"
+    },
+    {
+        "time": "2020-07-20 01:42:06",
+        "sumOfGuests": 5255,
+        "sumOfSauna": 168,
+        "dataLogger": "Waneta Saint"
+    },
+    {
+        "time": "2020-12-23 11:09:34",
+        "sumOfGuests": 5645,
+        "sumOfSauna": 197,
+        "dataLogger": "Carny Brendel"
+    },
+    {
+        "time": "2020-12-09 04:05:24",
+        "sumOfGuests": 4244,
+        "sumOfSauna": 51,
+        "dataLogger": "Austina Gillice"
+    },
+    {
+        "time": "2020-12-01 06:16:05",
+        "sumOfGuests": 3319,
+        "sumOfSauna": 128,
+        "dataLogger": "Wildon Charge"
+    },
+    {
+        "time": "2020-11-21 14:32:45",
+        "sumOfGuests": 3439,
+        "sumOfSauna": 79,
+        "dataLogger": "Dillon Thurstance"
+    },
+    {
+        "time": "2020-09-23 17:01:55",
+        "sumOfGuests": 3527,
+        "sumOfSauna": 81,
+        "dataLogger": "Carine Pala"
+    },
+    {
+        "time": "2020-12-27 08:50:59",
+        "sumOfGuests": 5132,
+        "sumOfSauna": 19,
+        "dataLogger": "Torrey Minshull"
+    },
+    {
+        "time": "2020-05-23 14:58:56",
+        "sumOfGuests": 2021,
+        "sumOfSauna": 56,
+        "dataLogger": "Afton Swatheridge"
+    },
+    {
+        "time": "2021-06-08 23:31:00",
+        "sumOfGuests": 1657,
+        "sumOfSauna": 6,
+        "dataLogger": "Hans MacKeig"
+    },
+    {
+        "time": "2020-07-27 22:55:30",
+        "sumOfGuests": 4115,
+        "sumOfSauna": 49,
+        "dataLogger": "Arther Stuckford"
+    },
+    {
+        "time": "2020-12-26 05:42:50",
+        "sumOfGuests": 5117,
+        "sumOfSauna": 187,
+        "dataLogger": "Rockie Gierck"
+    },
+    {
+        "time": "2021-06-28 13:42:58",
+        "sumOfGuests": 1656,
+        "sumOfSauna": 134,
+        "dataLogger": "Jodee Briereton"
+    },
+    {
+        "time": "2020-09-28 10:31:31",
+        "sumOfGuests": 5794,
+        "sumOfSauna": 85,
+        "dataLogger": "Mordecai Gopsall"
+    },
+    {
+        "time": "2021-07-26 00:23:17",
+        "sumOfGuests": 4911,
+        "sumOfSauna": 14,
+        "dataLogger": "Hailee Newcom"
+    },
+    {
+        "time": "2021-05-05 01:42:48",
+        "sumOfGuests": 5602,
+        "sumOfSauna": 208,
+        "dataLogger": "Joannes Ridder"
+    },
+    {
+        "time": "2020-11-22 17:48:58",
+        "sumOfGuests": 5560,
+        "sumOfSauna": 237,
+        "dataLogger": "Barn Clyne"
+    },
+    {
+        "time": "2021-02-18 04:52:35",
+        "sumOfGuests": 5577,
+        "sumOfSauna": 194,
+        "dataLogger": "Ab Ings"
+    },
+    {
+        "time": "2020-10-27 19:23:04",
+        "sumOfGuests": 4681,
+        "sumOfSauna": 163,
+        "dataLogger": "Willetta Eagleston"
+    },
+    {
+        "time": "2021-03-25 18:01:25",
+        "sumOfGuests": 3906,
+        "sumOfSauna": 113,
+        "dataLogger": "Arch Sansum"
+    },
+    {
+        "time": "2020-09-26 16:07:51",
+        "sumOfGuests": 4210,
+        "sumOfSauna": 185,
+        "dataLogger": "Ariella Waghorne"
+    },
+    {
+        "time": "2021-07-30 14:21:39",
+        "sumOfGuests": 2974,
+        "sumOfSauna": 223,
+        "dataLogger": "Flinn Bum"
+    },
+    {
+        "time": "2020-09-02 13:46:26",
+        "sumOfGuests": 2658,
+        "sumOfSauna": 121,
+        "dataLogger": "Felicle Farge"
+    },
+    {
+        "time": "2021-02-10 16:48:01",
+        "sumOfGuests": 1302,
+        "sumOfSauna": 36,
+        "dataLogger": "Rich Borel"
+    },
+    {
+        "time": "2020-11-20 23:01:09",
+        "sumOfGuests": 5755,
+        "sumOfSauna": 77,
+        "dataLogger": "Corrianne Mallard"
+    },
+    {
+        "time": "2020-06-15 08:11:39",
+        "sumOfGuests": 1239,
+        "sumOfSauna": 203,
+        "dataLogger": "Kimball Spohrmann"
+    },
+    {
+        "time": "2020-06-05 02:13:44",
+        "sumOfGuests": 5056,
+        "sumOfSauna": 229,
+        "dataLogger": "Ted Pie"
+    },
+    {
+        "time": "2021-02-16 03:11:27",
+        "sumOfGuests": 2119,
+        "sumOfSauna": 194,
+        "dataLogger": "Vanda Strass"
+    },
+    {
+        "time": "2021-01-28 06:53:40",
+        "sumOfGuests": 5174,
+        "sumOfSauna": 109,
+        "dataLogger": "Grayce Oxberry"
+    },
+    {
+        "time": "2021-05-01 14:19:49",
+        "sumOfGuests": 1909,
+        "sumOfSauna": 69,
+        "dataLogger": "Datha Jumeau"
+    },
+    {
+        "time": "2020-08-29 01:22:16",
+        "sumOfGuests": 2241,
+        "sumOfSauna": 18,
+        "dataLogger": "Tandi Laver"
+    },
+    {
+        "time": "2021-06-01 22:48:26",
+        "sumOfGuests": 4573,
+        "sumOfSauna": 180,
+        "dataLogger": "Ernaline Rodear"
+    },
+    {
+        "time": "2020-11-29 08:44:06",
+        "sumOfGuests": 2556,
+        "sumOfSauna": 14,
+        "dataLogger": "Penny Silbert"
+    },
+    {
+        "time": "2020-05-01 01:13:17",
+        "sumOfGuests": 2992,
+        "sumOfSauna": 117,
+        "dataLogger": "Laurie Alcoran"
+    },
+    {
+        "time": "2020-08-14 16:58:15",
+        "sumOfGuests": 2243,
+        "sumOfSauna": 213,
+        "dataLogger": "Olva Redington"
+    },
+    {
+        "time": "2021-05-06 20:38:36",
+        "sumOfGuests": 2373,
+        "sumOfSauna": 215,
+        "dataLogger": "Even Corden"
+    },
+    {
+        "time": "2021-03-04 09:05:35",
+        "sumOfGuests": 4853,
+        "sumOfSauna": 26,
+        "dataLogger": "Karissa Napoleone"
+    },
+    {
+        "time": "2020-12-14 01:08:25",
+        "sumOfGuests": 4781,
+        "sumOfSauna": 94,
+        "dataLogger": "Hobey Antrack"
+    },
+    {
+        "time": "2021-02-18 07:25:07",
+        "sumOfGuests": 4224,
+        "sumOfSauna": 121,
+        "dataLogger": "Filberto Leitche"
+    },
+    {
+        "time": "2020-12-06 04:27:34",
+        "sumOfGuests": 2266,
+        "sumOfSauna": 201,
+        "dataLogger": "Kirsti Calvie"
+    },
+    {
+        "time": "2021-04-21 11:20:30",
+        "sumOfGuests": 4017,
+        "sumOfSauna": 107,
+        "dataLogger": "Francklin Piecha"
+    },
+    {
+        "time": "2020-10-04 10:30:32",
+        "sumOfGuests": 2369,
+        "sumOfSauna": 207,
+        "dataLogger": "Phyllys Priddle"
+    },
+    {
+        "time": "2021-01-18 11:14:29",
+        "sumOfGuests": 1971,
+        "sumOfSauna": 134,
+        "dataLogger": "Rae Hamly"
+    },
+    {
+        "time": "2021-05-17 17:55:13",
+        "sumOfGuests": 4588,
+        "sumOfSauna": 84,
+        "dataLogger": "Thaddeus Bettridge"
+    },
+    {
+        "time": "2021-08-06 03:35:16",
+        "sumOfGuests": 4634,
+        "sumOfSauna": 171,
+        "dataLogger": "Devy Ambrosch"
+    },
+    {
+        "time": "2020-12-07 07:01:55",
+        "sumOfGuests": 3184,
+        "sumOfSauna": 136,
+        "dataLogger": "Kania Treske"
+    },
+    {
+        "time": "2020-11-02 08:21:08",
+        "sumOfGuests": 5330,
+        "sumOfSauna": 153,
+        "dataLogger": "Gleda Weerdenburg"
+    },
+    {
+        "time": "2021-07-22 23:07:12",
+        "sumOfGuests": 2907,
+        "sumOfSauna": 130,
+        "dataLogger": "Kathie Lief"
+    },
+    {
+        "time": "2021-02-03 05:50:03",
+        "sumOfGuests": 5184,
+        "sumOfSauna": 148,
+        "dataLogger": "Rustie Rosling"
+    },
+    {
+        "time": "2020-12-10 09:43:28",
+        "sumOfGuests": 4906,
+        "sumOfSauna": 212,
+        "dataLogger": "Rockie O'Nions"
+    },
+    {
+        "time": "2021-01-02 12:07:36",
+        "sumOfGuests": 3538,
+        "sumOfSauna": 211,
+        "dataLogger": "Franny Cornick"
+    },
+    {
+        "time": "2020-06-09 16:46:25",
+        "sumOfGuests": 3705,
+        "sumOfSauna": 23,
+        "dataLogger": "Antoinette Gaywood"
+    },
+    {
+        "time": "2021-08-01 04:23:05",
+        "sumOfGuests": 1059,
+        "sumOfSauna": 12,
+        "dataLogger": "Dodi Marmion"
+    },
+    {
+        "time": "2020-12-09 01:25:04",
+        "sumOfGuests": 2201,
+        "sumOfSauna": 98,
+        "dataLogger": "Avery Liebrecht"
+    },
+    {
+        "time": "2020-07-22 02:50:16",
+        "sumOfGuests": 2370,
+        "sumOfSauna": 247,
+        "dataLogger": "Harry Drewe"
+    },
+    {
+        "time": "2021-01-21 11:03:11",
+        "sumOfGuests": 2965,
+        "sumOfSauna": 50,
+        "dataLogger": "Darice Cozby"
+    },
+    {
+        "time": "2020-12-12 09:59:18",
+        "sumOfGuests": 5188,
+        "sumOfSauna": 140,
+        "dataLogger": "Ermin Dysart"
+    },
+    {
+        "time": "2020-09-05 00:30:38",
+        "sumOfGuests": 3544,
+        "sumOfSauna": 110,
+        "dataLogger": "Archaimbaud Oldroyde"
+    },
+    {
+        "time": "2021-03-01 02:46:25",
+        "sumOfGuests": 4621,
+        "sumOfSauna": 225,
+        "dataLogger": "Ninnette Teenan"
+    },
+    {
+        "time": "2020-08-30 10:47:50",
+        "sumOfGuests": 1169,
+        "sumOfSauna": 239,
+        "dataLogger": "Dasie Middleweek"
+    },
+    {
+        "time": "2020-05-08 10:47:54",
+        "sumOfGuests": 1100,
+        "sumOfSauna": 143,
+        "dataLogger": "Laird Bulward"
+    },
+    {
+        "time": "2020-09-07 07:59:25",
+        "sumOfGuests": 1568,
+        "sumOfSauna": 154,
+        "dataLogger": "Godfrey Putnam"
+    },
+    {
+        "time": "2020-11-21 01:34:41",
+        "sumOfGuests": 5397,
+        "sumOfSauna": 194,
+        "dataLogger": "Earlie Loseby"
+    },
+    {
+        "time": "2021-03-16 08:11:45",
+        "sumOfGuests": 4259,
+        "sumOfSauna": 33,
+        "dataLogger": "Shena Hefferon"
+    },
+    {
+        "time": "2021-03-31 23:35:53",
+        "sumOfGuests": 2982,
+        "sumOfSauna": 151,
+        "dataLogger": "Cazzie Stannislawski"
+    },
+    {
+        "time": "2021-03-03 21:03:53",
+        "sumOfGuests": 1387,
+        "sumOfSauna": 119,
+        "dataLogger": "Tallulah Shillitto"
+    },
+    {
+        "time": "2021-06-08 12:30:25",
+        "sumOfGuests": 3378,
+        "sumOfSauna": 108,
+        "dataLogger": "Lelia Liptrod"
+    },
+    {
+        "time": "2020-06-22 15:33:39",
+        "sumOfGuests": 4692,
+        "sumOfSauna": 63,
+        "dataLogger": "Mason Pusey"
+    },
+    {
+        "time": "2021-03-14 04:50:31",
+        "sumOfGuests": 3898,
+        "sumOfSauna": 148,
+        "dataLogger": "Kaylil Stoate"
+    },
+    {
+        "time": "2021-03-19 02:21:41",
+        "sumOfGuests": 2026,
+        "sumOfSauna": 211,
+        "dataLogger": "Zack Karolczyk"
+    },
+    {
+        "time": "2021-07-16 05:55:09",
+        "sumOfGuests": 4693,
+        "sumOfSauna": 221,
+        "dataLogger": "Alexandros McIsaac"
+    },
+    {
+        "time": "2021-07-30 21:17:51",
+        "sumOfGuests": 4971,
+        "sumOfSauna": 72,
+        "dataLogger": "Karlan Leahy"
+    },
+    {
+        "time": "2021-02-27 10:28:24",
+        "sumOfGuests": 1889,
+        "sumOfSauna": 179,
+        "dataLogger": "Aldous Priver"
+    },
+    {
+        "time": "2020-08-24 19:32:56",
+        "sumOfGuests": 4446,
+        "sumOfSauna": 118,
+        "dataLogger": "Daniele Cahey"
+    },
+    {
+        "time": "2020-06-11 02:51:24",
+        "sumOfGuests": 4684,
+        "sumOfSauna": 12,
+        "dataLogger": "Chalmers Danahar"
+    },
+    {
+        "time": "2020-06-06 23:37:45",
+        "sumOfGuests": 2004,
+        "sumOfSauna": 238,
+        "dataLogger": "Jay Durnall"
+    },
+    {
+        "time": "2020-05-25 11:02:06",
+        "sumOfGuests": 3401,
+        "sumOfSauna": 18,
+        "dataLogger": "Corry Plumridge"
+    },
+    {
+        "time": "2021-05-30 04:35:11",
+        "sumOfGuests": 1057,
+        "sumOfSauna": 54,
+        "dataLogger": "Elfie Wanjek"
+    },
+    {
+        "time": "2020-07-01 13:58:12",
+        "sumOfGuests": 4885,
+        "sumOfSauna": 182,
+        "dataLogger": "Stacia Guard"
+    },
+    {
+        "time": "2020-11-07 08:56:41",
+        "sumOfGuests": 3079,
+        "sumOfSauna": 89,
+        "dataLogger": "Hadria Emmanuele"
+    }
+]
