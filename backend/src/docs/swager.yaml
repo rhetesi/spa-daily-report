@@ -565,7 +565,7 @@ paths:
               schema:
                 $ref: "#/components/schemas/Error"
     post:
-      description: Creates a new spadata
+      description: Creates a new Wellness Data
       requestBody:
         required: true
         content:
