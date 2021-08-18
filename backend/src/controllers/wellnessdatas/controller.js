@@ -1,7 +1,7 @@
 const express = require('express');
 const createError = require('http-errors');
 
-const Model = require('../../models/wellness.model');
+const Model = require('../../models/wellnessdatas.model');
 const service = require('./service');
 
 // Create a new wellness data.

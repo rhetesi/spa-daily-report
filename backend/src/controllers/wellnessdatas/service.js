@@ -1,4 +1,4 @@
-const Model = require('../../models/wellness.model');
+const Model = require('../../models/wellnessdatas.model');
 
 exports.create = requestData => {
     const entity = new Model(requestData);

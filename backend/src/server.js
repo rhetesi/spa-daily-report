@@ -23,7 +23,7 @@ mongoose
     })
     .then(() => {
         // Data seeds.
-        require('./seed/seeder');
+        // require('./seed/seeder');
         logger.info('MongoDB connection has been established successfully.');
     })
     .catch(err => {
