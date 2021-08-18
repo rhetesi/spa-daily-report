@@ -3,15 +3,12 @@ const mongoose = require('mongoose');
 const UserSchema = mongoose.Schema({
     firstName: {
         type: String,
-        required: false
     },
     lastName: {
-        type: Number,
-        required: false
+        type: String,
     },
     email: {
         type: String,
-        required: false
     },
     address: {
         type: String,
@@ -23,14 +20,11 @@ const UserSchema = mongoose.Schema({
         type: Boolean,
         default: true
     },
-    active: {
-        type: string,
-    },
     password: {
-        type: string,
+        type: String,
     },
     accessToken: {
-        type: string,
+        type: String,
     }
 }, {
     timeStamps: true
