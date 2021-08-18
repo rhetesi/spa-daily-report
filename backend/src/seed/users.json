@@ -2,11 +2,11 @@
     {
         "firstName": "Roland",
         "lastName": "Hetesi",
-        "email": "rh@gmail.com",
+        "email": "rhetesi@gmail.com",
         "address": "8380 Hévíz, Dr. Schulhof V. stny. 1.",
         "role": 3,
         "active": true,
-        "password": "",
+        "password": "test",
         "accessToken": ""
     },
     {

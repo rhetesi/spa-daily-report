@@ -17,6 +17,8 @@ const Users = [{
 
 const refreshTokens = [];
 
+const users = require('../models/user.model');
+
 module.exports.login = async (req, res) => {
     const {
         email,
