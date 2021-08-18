@@ -17,7 +17,7 @@ const Users = [{
 
 const refreshTokens = [];
 
-module.exports.login = (req, res) => {
+module.exports.login = async (req, res) => {
     const {
         email,
         password
